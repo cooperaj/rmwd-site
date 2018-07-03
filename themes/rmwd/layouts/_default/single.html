@@ -1,0 +1,29 @@
+{{ define "title" }}
+    {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<main aria-role="main">
+    <header class="hero is-medium is-info is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">{{ .Title }}</h1>
+                <ul id="tags">
+                    {{ range .Params.tags }}
+                    <li class="tag"><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <article class="container">
+            <div class="column is-8 is-offset-2">
+                <div class="content">
+                    {{ .Content }}
+                </div>
+            </div>
+        </article>
+    </section>
+    
+</main>
+{{ end }}
