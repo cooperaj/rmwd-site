@@ -4,22 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {{ .Hugo.Generator }}
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
-    <base href="{{ .Site.BaseURL }}" />
     <link rel="canonical" href="{{ .Permalink }}" />
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+    {{ partial "meta-icons" . }}
 
     <link rel="stylesheet" type="text/css" href="/css/main.css">
   </head>
   <body>
-    <!-- Code that all your templates share, like a header -->
-    {{ block "main" . }}
-      <!-- The part of the page that begins to differ between templates -->
-    {{ end }}
-    {{ block "footer" . }}
-        <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-        {{ partial "footer" . }}
-    {{ end }}
+    {{ partial "navbar" . }}
+
+    {{ block "main" . }}{{ end }}
+
+    {{ partial "footer" . }}
+
+    <script type="text/javascript" src="/javascript/app.js"></script>
   </body>
 </html>

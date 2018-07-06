@@ -1,0 +1,19 @@
+<article class="post">
+    <div class="card-image">
+        <figure class="image {{ if .Params.ratio }}is-{{ .Params.ratio }}{{ else }}is-4by3{{ end }}">
+            <img src="{{ .Params.image }}" alt="{{ .Title }}">
+        </figure>
+    </div>
+    {{ if .Title }}
+    <div class="post-body is-insta">
+        <p>
+            {{ .Title }}
+            {{ with .Params.tags }}
+                {{ range . }}
+                    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+                {{ end }}
+            {{ end }}
+        </p>
+    </div>
+    {{ end }}
+</article>

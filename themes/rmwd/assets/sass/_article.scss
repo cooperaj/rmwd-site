@@ -1,0 +1,30 @@
+section.articles {
+    margin-top: -5.25rem;
+    padding: 0;
+}
+
+article {
+    &.post {
+        @extend .card;
+        margin-top: 3rem;
+
+        .post-header {
+            @extend .card-content;
+        }
+
+        .post-body {
+            @extend .card-content;
+
+            &.is-insta {
+                font-size: $size-5;
+            }
+        }
+    }
+}
+
+@include from($desktop) {
+    section.articles {
+        margin-top: -10.25rem;
+        padding: 3.5rem 1.5rem;
+    }
+}

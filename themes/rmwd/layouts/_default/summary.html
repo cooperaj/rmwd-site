@@ -3,7 +3,11 @@
         <header class="media">
             <div class="media-content">
                 <h2 class="title is-size-4"><a href='{{ .Permalink }}'>{{ .Title }}</a> </h2>
-                <p class="subtitle is-size-6 post-meta">{{ .Date.Format "Mon, Jan 2, 2006" }} - {{ .FuzzyWordCount }} Words </p>
+                <p class="subtitle is-size-6 post-meta">
+                    {{ .Date.Format "Mon, Jan 2, 2006" }} - 
+                    {{ .FuzzyWordCount }} Words - 
+                    {{ .ReadingTime }} minutes
+                </p>
             </div>
         </header>
         <div class="content">

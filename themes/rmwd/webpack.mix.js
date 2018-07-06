@@ -19,9 +19,11 @@ mix.options({
                 'last 2 versions'
             ]
         }
-    }
-})
+    }})
    .sass('assets/sass/main.scss', 'css/')
+   .js('assets/app.js', 'javascript/')
+   .copyDirectory('assets/icons', 'static/')
+   .copyDirectory('assets/images', 'static/images')
    .sourceMaps()
    .browserSync('localhost:1313')
    .setPublicPath('static/')

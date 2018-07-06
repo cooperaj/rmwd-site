@@ -1,3 +1,5 @@
 'use strict';
 
-import './sass/main.scss';
+import NavBar from './javascript/navbar.js';
+
+let nav = new NavBar(document.querySelector('nav.is-fixed-top'));

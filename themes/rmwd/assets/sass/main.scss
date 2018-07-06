@@ -4,6 +4,10 @@
 
 @import "./bulma";
 @import "./syntax";
+@import "./navbar";
+@import "./article";
+@import "./hero";
+@import "./pagination";
 
 $fa-font-path: '~@fortawesome/fontawesome-pro/webfonts';
 @import "~@fortawesome/fontawesome-pro/scss/fa-brands";
@@ -20,27 +24,3 @@ h1, h2, h3, h4, h5, h6,
     }
 }
 
-.hero.has-image {
-    @extend .hero;
-    background: url('/cover.jpg') no-repeat center center;
-    background-size: cover;
-
-    .title, .subtitle {
-        color: $white;
-    }
-}
-
-section.articles {
-    margin-top: -150px;
-}
-
-article {
-    &.post {
-        @extend .card;
-        margin-top: 4rem;
-
-        .post-body {
-            @extend .card-content;
-        }
-    }
-}
