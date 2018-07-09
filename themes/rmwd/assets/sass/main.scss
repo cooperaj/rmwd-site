@@ -16,11 +16,11 @@ $fa-font-path: '~@fortawesome/fontawesome-pro/webfonts';
 h1, h2, h3, h4, h5, h6,
 .title, .subtitle {
     font-family: $header-sans-serif;
-    font-weight: 300;
+    font-weight: $weight-light;
 }
 .content {
     h1, h2, h3, h4, h5, h6 {
-        font-weight: 300;
+        font-weight: $weight-light;
     }
 }
 
