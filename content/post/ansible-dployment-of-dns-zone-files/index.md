@@ -2,7 +2,7 @@
 title: "Ansible deployment of DNS zone files"
 slug: "ansible-dployment-of-dns-zone-files"
 date: 2016-01-08T16:09:00+00:00
-description: "A first post to figure out hoow to build a hugo site"
+description: "Creating the DNS setup I want using configuration as code"
 author: adam
 tags: 
   - devops
