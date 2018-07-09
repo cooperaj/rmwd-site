@@ -4,7 +4,7 @@
   "description": "The realmenweardress.es website",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd themes/rmwd && npm i"
+    "postinstall": "cd themes/rmwd && npm i && npm run production"
   },
   "author": "Adam Cooper <adam@networkpie.co.uk>",
   "license": "MIT"
