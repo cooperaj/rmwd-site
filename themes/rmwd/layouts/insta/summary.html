@@ -9,7 +9,7 @@
                 <img src="{{ $webSafeImage.RelPermalink }}" data-orig-image="{{ $image.RelPermalink }}"
             {{- end }}
             alt="{{ .Title | safeHTMLAttr }}">
-            <figcaption class="post-image-caption has-text-right is-size-7">{{ .Params.description }}</figcaption>
+            <figcaption class="post-image-caption is-size-7">{{ .Params.description }}</figcaption>
         </figure>
     </div>
     {{ if .Title }}
