@@ -1,6 +1,11 @@
 section.articles {
     margin-top: -5.25rem;
     padding: 0;
+
+    @include from($desktop) {
+        margin-top: -10.25rem;
+        padding: 3.5rem 1.5rem;
+    }
 }
 
 article {
@@ -9,10 +14,21 @@ article {
         margin-top: 3rem;
 
         .post-image {
-            padding: 1.5rem 1.5rem 0 1.5rem;
+            padding: 0.5rem 0.5rem 0 0.5rem;
+            text-align: center;
 
-            img {
-                border: 1px inset;
+            // teeny phones
+            @include from(340px) {
+                text-align: right;
+            }
+
+            @include from($tablet) {
+                padding: 1.5rem 1.5rem 0 1.5rem;
+
+
+                img {
+                    border: 1px inset;
+                }
             }
         }
 
@@ -39,6 +55,12 @@ article {
             &.is-insta {
                 font-size: $size-5;
             }
+
+            .content figure {
+                margin-top: 1rem;
+                margin-left: 0;
+                margin-right: 0;
+            }
         }
 
         .post-footer {
@@ -55,12 +77,5 @@ article {
                 border: 1px solid $white;
             }
         }
-    }
-}
-
-@include from($desktop) {
-    section.articles {
-        margin-top: -10.25rem;
-        padding: 3.5rem 1.5rem;
     }
 }
