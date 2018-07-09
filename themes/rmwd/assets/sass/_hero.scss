@@ -2,7 +2,7 @@
     @extend .hero;
 
     &.has-image {
-        background: url('/cover.jpg') no-repeat center center;
+        background: url('/images/cover.jpg') no-repeat center center;
         background-size: cover;
 
         .title, .subtitle {
