@@ -15,19 +15,31 @@
 
         <div class="navbar-menu">
             <div class="navbar-end">
+                {{ with .Site.GetPage "page" "about" }}
                 <div class="navbar-item">
-                    About
+                    <a href="{{ .RelPermalink }}">
+                        About
+                    </a>
                 </div>
+                {{ end }}
+                {{ with .Site.Params.twitterName }}
                 <div class="navbar-item">
-                    <span class="icon is-medium">
-                        <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
-                    </span>
+                    <a href="https://twitter.com/{{ . }}">
+                        <span class="icon is-medium">
+                            <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+                        </span>
+                    </a>
                 </div>
+                {{ end }}
+                {{ with .Site.Params.githubName }}
                 <div class="navbar-item is-medium">
-                    <span class="icon">
-                        <i class="fab fa-github fa-lg" aria-hidden="true"></i>
-                    </span>
+                    <a href="https://github.com/{{ . }}">
+                        <span class="icon">
+                            <i class="fab fa-github fa-lg" aria-hidden="true"></i>
+                        </span>
+                    </a>
                 </div>
+                {{ end }}
             </div>
         </div>
         
