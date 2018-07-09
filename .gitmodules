@@ -1,0 +1,3 @@
+[submodule "themes/rmwd"]
+	path = themes/rmwd
+	url = https://github.com/cooperaj/rmwd-hugo-theme
