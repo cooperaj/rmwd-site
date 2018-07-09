@@ -8,15 +8,51 @@ article {
         @extend .card;
         margin-top: 3rem;
 
+        .post-image {
+            padding: 1.5rem 1.5rem 0 1.5rem;
+
+            img {
+                border: 1px inset;
+            }
+        }
+
         .post-header {
-            @extend .card-content;
+            padding: 1.5rem 1.5rem 0 1.5rem;
+            
+            &.columns {
+                margin-bottom: 0;
+            }
+
+            .post-meta {
+                @extend .subtitle;
+                font-size: $size-6;
+            }
         }
 
         .post-body {
             @extend .card-content;
 
+            &>hr {
+                margin-top: 0;
+            }
+
             &.is-insta {
                 font-size: $size-5;
+            }
+        }
+
+        .post-footer {
+            padding: 2.25rem;
+            background-color: $grey-darker;
+            color: $white;
+
+            .title {
+                color: $white;
+                margin-bottom: 0.75rem;
+            }
+
+            figure {
+                border: 1px solid $white;
             }
         }
     }
