@@ -1,7 +1,15 @@
 <article class="post">
-    <div class="card-image">
+    <div class="post-image">
         <figure class="image {{ if .Params.ratio }}is-{{ .Params.ratio }}{{ else }}is-4by3{{ end }}">
-            <img src="{{ .Params.image }}" alt="{{ .Title }}">
+            {{ if (findRE "(^|:)//" .Params.image) -}} <!-- If image link is a URL with protocol or two leading slashes, use just that unmodified. -->
+                <img src="{{ .Params.image }}"
+            {{- else -}}
+                {{ $image := .Resources.GetMatch (printf "*%s*" .Params.image) }}
+                {{ $webSafeImage := $image.Resize "1200x Lanczos" }}
+                <img src="{{ $webSafeImage.RelPermalink }}" data-orig-image="{{ $image.RelPermalink }}"
+            {{- end }}
+            alt="{{ .Title | safeHTMLAttr }}">
+            <figcaption class="post-image-caption has-text-right is-size-7">{{ .Params.description }}</figcaption>
         </figure>
     </div>
     {{ if .Title }}
