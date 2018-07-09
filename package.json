@@ -1,0 +1,11 @@
+{
+  "name": "realmenweardress.es",
+  "version": "1.0.0",
+  "description": "The realmenweardress.es website",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "cd themes/rmwd && npm i"
+  },
+  "author": "Adam Cooper <adam@networkpie.co.uk>",
+  "license": "MIT"
+}
