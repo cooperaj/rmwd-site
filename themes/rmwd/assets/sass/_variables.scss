@@ -4,3 +4,10 @@ $header-sans-serif: "Raleway", "Helvetica", "Arial", sans-serif;
 $family-sans-serif: "Roboto", "Helvetica", "Arial", sans-serif;
 
 $navbar-desktop-height: 6.25rem;
+
+$rmwd-orange: hsl(13, 87%, 33%);
+
+$link: $rmwd-orange;
+$link-invert: findColorInvert($rmwd-orange);
+$info: $rmwd-orange;
+$info-invert: findColorInvert($rmwd-orange);
