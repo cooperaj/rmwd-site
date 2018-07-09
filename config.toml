@@ -9,7 +9,7 @@ enableEmoji = true
 pygmentsUseClasses = true
 
 [params]
-  description = "The gaming and technological musings of a software developer living in the UK"
+  description = "The gaming and technological musings of a software developer"
   twitterName = "pieceofthepie"
   githubName = "cooperaj"
   linkedInName = ""
