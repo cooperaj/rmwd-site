@@ -7,6 +7,8 @@ categories:
 tags: 
   - insect
   - macro
+  - sigma
+  - canon400d
 image: _MG_5040
 ratio: 6by4
 ---
