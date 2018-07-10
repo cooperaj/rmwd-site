@@ -13,6 +13,7 @@ pygmentsUseClasses = true
   twitterName = "pieceofthepie"
   githubName = "cooperaj"
   linkedInName = ""
+  keybaseName = "cooperaj"
   cover = "images/cover.jpg"
 
 [permalinks]
