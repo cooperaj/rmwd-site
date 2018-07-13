@@ -3,8 +3,8 @@ title: Hello world!
 date: 2010-06-18T14:27:24+00:00
 author: adam
 slug: hello-world
-categories:
-  - "Short'n'sweet"
+tags:
+  - "short'n'sweet"
 ---
 
 {{< figure src="images/ScreenShot_013110_200413.jpg" alt="Dragons feel most at home underground donchaknow" >}}
