@@ -12,6 +12,6 @@ tags:
 
 I've been really struggling to think of engaging, useful content to pepper your inboxes with—this blog writing thing is not really all that easy to get into—but it looks like I'll have something new to show you everyday now 🙂
 
-{{< figure src="images/Screen-shot-2010-08-11-at-00.18.36.png" alt="Remember kids, never click on links in emails. Go immediately to eu.battle.net and see for yourself" >}}
+{{< figure src="images/Screen-shot-2010-08-11-at-00.18.36.jpg" alt="Remember kids, never click on links in emails. Go immediately to eu.battle.net and see for yourself" >}}
 
 <!--more-->

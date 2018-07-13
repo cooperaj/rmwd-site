@@ -10,7 +10,7 @@ tags:
   - wow
 ---
 
-{{< figure src="images/Screen-shot-2010-10-14-at-16.32.43.png" title="My what a big mouth you have" alt="Deathwing in Dragon form" >}}
+{{< figure src="images/Screen-shot-2010-10-14-at-16.32.43.jpg" title="My what a big mouth you have" alt="Deathwing in Dragon form" >}}
 
 In case you've been living in a cave of late you'll be aware that patch 4.0.1 is now live and that we're all firmly set on our way to Deathwing's violent return. I've been making some notes as I have struggled to come to terms with what appears to be a brand new set of healing slippers. Every now and then I find myself pining for my tattered tartan moccasins—the ones with the frayed piping&mdash;but I know I won't be getting them back and so onwards I must go.
 
@@ -35,7 +35,7 @@ In case you've been living in a cave of late you'll be aware that patch 4.0.1 is
   1. On my early 2008 MBP (4,1) performance ranges from "the same as before" to "utterly abysmal"[^1]. Seeing as hitting CMD-M fixes this I'm optimistic this is a bug.
   2. Downloading patches for both my Mac and the Desktop PC have pushed me over my ISP's FUP[^2] meaning I'm unable to raid for at least another 2 days. Knowing this might be have  been the case I shouldn't have bought Left4Dead2 on the Steam sale last weekend.
 
-All in all I'm actually fairly please with the changes. Most of the bad/ugly things are transient and will be fixed or just won't matter so all that I'm really left with is that doing what I like to do just got a lot more interesting.
+All in all I'm actually fairly pleased with the changes. Most of the bad/ugly things are transient and will be fixed or just won't matter so all that I'm really left with is that doing what I like to do just got a lot more interesting.
 
 Change is good. The old moccasins were beginning to smell a bit anyway.
 
