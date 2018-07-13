@@ -4,10 +4,11 @@ date: 2010-06-26T08:31:47+00:00
 author: adam
 slug: the-trip-has-indeed-been-long
 tags:
-  - "short'n'sweet"
+  - short'n'sweet
   - achievements
   - dragons
   - thanks
+  - wow
 ---
 
 {{< figure src="images/ScreenShot_062610_020430.jpg" alt="Here be (rideable violet) dragons" >}}

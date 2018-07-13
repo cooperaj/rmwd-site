@@ -4,7 +4,8 @@ date: 2010-06-18T14:27:24+00:00
 author: adam
 slug: hello-world
 tags:
-  - "short'n'sweet"
+  - short'n'sweet
+  - wow
 ---
 
 {{< figure src="images/ScreenShot_013110_200413.jpg" alt="Dragons feel most at home underground donchaknow" >}}
