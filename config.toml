@@ -3,7 +3,7 @@ languageCode = "en-gb"
 title = "Real Men Wear Dress.es"
 theme = "rmwd"
 paginate = 5
-copyright = "&copy; Copyright Adam Cooper"
+copyright = "Adam Cooper"
 
 # Site lnf
 enableEmoji = true
