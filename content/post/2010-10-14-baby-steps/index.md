@@ -14,7 +14,7 @@ tags:
 
 In case you've been living in a cave of late you'll be aware that patch 4.0.1 is now live and that we're all firmly set on our way to Deathwing's violent return. I've been making some notes as I have struggled to come to terms with what appears to be a brand new set of healing slippers. Every now and then I find myself pining for my tattered tartan moccasins—the ones with the frayed piping&mdash;but I know I won't be getting them back and so onwards I must go.
 
-### The Good
+## The Good
 
   1. Healing's actually a fair bit more challenging now. I have a choice of spell and don't have to spam Holy Light all day.
   2. My flying mounts are _all_ 310% speed which pleases my Argent Hippogryph.
@@ -23,14 +23,14 @@ In case you've been living in a cave of late you'll be aware that patch 4.0.1 is
 
 <!--more-->
 
-### The Bad
+## The Bad
 
   1. Many of my addons stopped working&mdash;so I took the opportunity to start from scratch (kind of a goodbad… goobad… goboad thing)
   2. All my gems turned red deactivating my meta.
   3. My BiS [Libram of Renewal](http://www.wowhead.com/item=40705) is now crap since they removed the thing that made it special and replaced it with a gem socket.
   4. I got gauged for Glyphs on the AH (I'm just bitter I am not a Scribe)
 
-### The Ugly
+## The Ugly
 
   1. On my early 2008 MBP (4,1) performance ranges from "the same as before" to "utterly abysmal"[^1]. Seeing as hitting CMD-M fixes this I'm optimistic this is a bug.
   2. Downloading patches for both my Mac and the Desktop PC have pushed me over my ISP's FUP[^2] meaning I'm unable to raid for at least another 2 days. Knowing this might be have  been the case I shouldn't have bought Left4Dead2 on the Steam sale last weekend.
