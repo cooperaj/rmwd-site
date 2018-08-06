@@ -1,24 +1,17 @@
 ---
-
 title: TukUI a.k.a. my new favourite UI.
 date: 2010-12-09T17:36:04+00:00
 author: adam
-
-
-permalink: /2010/12/tukui-a-k-a-my-new-favourite-ui/
-yourls_shorturl:
-  - http://bit.ly/gydYDI
-yourls_tweeted:
-  - "1"
-categories:
-  - Stuff
+slug: tukui-a-k-a-my-new-favourite-ui
 tags:
   - addons
   - guide
   - review
   - tukui
   - ui
+draft: true
 ---
+
 <img class="aligncenter size-large wp-image-300" title="Lowercase is for chumps. Uppercase. :) - Hydra, to whom I owe thanks for the logo" src="http://realmenweardress.es/wp-content/uploads/2010/12/TukUIHeader-480x176.jpg" alt="Lowercase is for chumps. Uppercase. :) - Hydra, to whom I owe thanks for the logo" width="470" height="172" />
 
 When patch 4.0.1 dropped I took the opportunity to give my addons folder a much needed clearing. I figured that perhaps I didn't really _need_ all the junk that I'd managed to accumulate—at a rough tally I had 50+ addons. Just to make life harder on myself I resolved to get rid of everything. _&#8220;Perhaps I'd get on with all the old (and new) defaults that Blizzard had given us&#8221;_ I thought to myself.

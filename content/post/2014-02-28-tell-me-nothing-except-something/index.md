@@ -6,8 +6,10 @@ slug: tell-me-nothing-except-something
 tags:
   - grumble
   - what to do
+draft: true
 ---
-[<img class="size-full wp-image-616 aligncenter" alt="River Song of Dr. Who fame uses her catchphrase." src="http://realmenweardress.es/wp-content/uploads/2014/02/kP1tt7b.gif" width="400" height="226" />](http://realmenweardress.es/wp-content/uploads/2014/02/kP1tt7b.gif)
+
+{{< figure src="images/kP1tt7b.gif" alt="River Song of Dr. Who fame uses her catchphrase." >}}
 
 Apologies for the GIF but it is rather appropriate. I'm itching to know of all the gameplay adjustments and tweaks made for Warlords of Draenor but I can't bring myself to look at sites such as mmochampion &#8211; I know in amongst all these nuggets of useful knowledge there are going to be some horrendous gameplay spoilers. I was a part of the Cataclysm beta and although it was a hoot it did significantly diminish the fun I had when running through the content for a second time. I was about as spoiled as you can get.
 
