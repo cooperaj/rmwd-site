@@ -2,8 +2,6 @@
 title: "Dungeons and Dragons and Developers"
 date: 2018-07-09T21:03:00+01:00
 description: "Google Pixel 2"
-categories:
-  - photography
 tags: 
   - technott
   - talk
