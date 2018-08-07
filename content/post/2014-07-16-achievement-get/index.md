@@ -1,13 +1,12 @@
 ---
-
 title: Achievement Get!
 date: 2014-07-16T10:23:20+00:00
 author: adam
-
-
-permalink: /2014/07/achievement-get/
-categories:
+slug: achievement-get
+tags:
   - Mists of Pandaria
+  - wow
+draft: true
 ---
 [<img class="alignnone size-large wp-image-638" alt="Grrr Rawr" src="http://realmenweardress.es/wp-content/uploads/2014/07/WoWScrnShot_071514_210754-2-480x271.jpg" width="470" height="265" />](http://realmenweardress.es/wp-content/uploads/2014/07/WoWScrnShot_071514_210754-2.jpg)
 
