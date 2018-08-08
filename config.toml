@@ -4,6 +4,8 @@ title = "Real Men Wear Dress.es"
 theme = "rmwd"
 paginate = 5
 
+googleAnalytics = "UA-2007142-6"
+
 # Link copyright to author profile page
 copyright = "adam"
 
@@ -19,6 +21,7 @@ footnoteReturnLinkContents = "↩"
   linkedInName = ""
   keybaseName = "cooperaj"
   cover = "images/cover.jpg"
+  logo = "android-chrome-192x192.png"
 
 [permalinks]
   post = "/:year/:month/:slug/"
