@@ -1,13 +1,13 @@
 ---
-title: Raid Leading for Beginners
-date: 2012-03-12T15:22:25+00:00
 author: adam
+date: "2012-03-12T15:22:25+00:00"
 slug: raid-leading-for-beginners
 tags:
-  - beginners
-  - beginning raid leading
-  - raid leading 101
-  - wow
+- beginners
+- beginning raid leading
+- raid leading 101
+- wow
+title: Raid Leading for Beginners
 ---
 
 The other day I was asked by a new raid leader in the guild if there were any tips I could give him. I was in the middle of running a raid myself at this point and I'm fairly certain that whatever I replied with wasn't all that useful. It was probably barely more then a string of non-sensical letters and yet he said his thanks and carried on.

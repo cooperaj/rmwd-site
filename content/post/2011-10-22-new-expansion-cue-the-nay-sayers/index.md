@@ -1,13 +1,13 @@
 ---
-title: New expansion? Cue the nay-sayers.
-date: 2011-10-22T11:09:39+00:00
 author: adam
+date: "2011-10-22T11:09:39+00:00"
 slug: new-expansion-cue-the-nay-sayers
 tags:
-  - mists of pandaria
-  - how can they possibly know
-  - needless bitching
-  - wow
+- mists of pandaria
+- how can they possibly know
+- needless bitching
+- wow
+title: New expansion? Cue the nay-sayers.
 ---
 
 {{< figure src="images/Screen-Shot-2011-10-22-at-14.30.16.png" title="Thats my Bamboo!" >}}

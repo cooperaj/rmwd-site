@@ -1,14 +1,14 @@
 ---
-title: Raid leading and me
-date: 2010-06-24T23:11:04+00:00
 author: adam
-slug: raid-leading-and-me
 coverimage: ScreenShot_040710_201113
+date: "2010-06-24T23:11:04+00:00"
+slug: raid-leading-and-me
 tags:
-  - bio
-  - issues
-  - solutions
-  - wow
+- bio
+- issues
+- solutions
+- wow
+title: Raid leading and me
 ---
 
 Sometime back in the dim and distant past I became aware of what exactly the endgame entailed for most players and I embarked on a quest to get into one of my guilds raiding teams. Although I was rapidly picking up gear from heroics and buying my T9 gear with my Triumph emblems I was still vastly under geared for any of the content that the teams were running and so was unlikely to even be added as a bench member. Fortunately for me the guild leader of the time was putting together a 4th team and so I signed my name up and waited for some raiding action to appear in my calendar. A week later &#8211; and with no sign of any raids &#8211; I checked on the guild forums to find that without a leader to organise things the members of the team that had so far been assembled weren't likely to be going anywhere.

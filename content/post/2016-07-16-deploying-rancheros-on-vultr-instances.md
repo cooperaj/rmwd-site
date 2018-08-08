@@ -1,12 +1,12 @@
 ---
-title: "Deploying Rancheros on Vultr Instances"
-date: 2016-07-16T15:37:00+01:00
-description: "Using PXE scripts to boot a custom ISO on Vultr"
 author: adam
-tags: 
-  - devops
-  - vultr
-  - rancheros
+date: "2016-07-16T15:37:00+01:00"
+description: Using PXE scripts to boot a custom ISO on Vultr
+tags:
+- devops
+- vultr
+- rancheros
+title: Deploying Rancheros on Vultr Instances
 ---
 
 One of things I've been playing with of late is a Docker container orchestration system called <a href="http://rancher.com">Rancher</a>. I've been very excited to discover the features and capabilities the developers have created and despite being quite new it's extremely well polished - for the most part it <em>just works</em>.

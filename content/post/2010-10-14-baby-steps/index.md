@@ -1,13 +1,13 @@
 ---
-title: Baby steps
-date: 2010-10-14T14:42:09+00:00
 author: adam
+date: "2010-10-14T14:42:09+00:00"
 slug: baby-steps
 tags:
-  - cataclysm
-  - patch 4.0.1
-  - it's a whole new world... of warcraft
-  - wow
+- cataclysm
+- patch 4.0.1
+- it's a whole new world... of warcraft
+- wow
+title: Baby steps
 ---
 
 {{< figure src="images/Screen-shot-2010-10-14-at-16.32.43.jpg" title="My what a big mouth you have" alt="Deathwing in Dragon form" >}}

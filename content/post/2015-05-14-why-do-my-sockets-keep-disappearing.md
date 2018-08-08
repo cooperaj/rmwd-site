@@ -1,12 +1,12 @@
 ---
-title: "Why do my sockets keep disappearing?"
-date: 2015-05-14T13:35:00+01:00
-description: "In which I discover the default Nginx setup didn't work for me"
 author: adam
-tags: 
-  - devops
-  - nginx
-  - froxlor
+date: "2015-05-14T13:35:00+01:00"
+description: In which I discover the default Nginx setup didn't work for me
+tags:
+- devops
+- nginx
+- froxlor
+title: Why do my sockets keep disappearing?
 ---
 
 I'm working on getting my <a href="http://froxlor.org">froxlor</a> instance setup with PHP5-FPM and Nginx and was encountering an issue whereupon reboot the PHP functionality would be broken. Looking in syslog would give me about 30 lines of PHP5-FPM failing to start and then giving up. Looking in <em>/var/log/php5-fpm.log</em> would tell me nothing useful other then the configtest passed.

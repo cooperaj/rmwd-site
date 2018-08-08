@@ -1,14 +1,14 @@
 ---
-title: The trip has indeed been long
-date: 2010-06-26T08:31:47+00:00
 author: adam
+date: "2010-06-26T08:31:47+00:00"
 slug: the-trip-has-indeed-been-long
 tags:
-  - short'n'sweet
-  - achievements
-  - dragons
-  - thanks
-  - wow
+- short'n'sweet
+- achievements
+- dragons
+- thanks
+- wow
+title: The trip has indeed been long
 ---
 
 {{< figure src="images/ScreenShot_062610_020430.jpg" alt="Here be (rideable violet) dragons" >}}

@@ -1,10 +1,10 @@
 ---
-title: Hammer Time
-date: 2013-01-10T22:58:31+00:00
 author: adam
+date: "2013-01-10T22:58:31+00:00"
 slug: hammer-time
 tags:
-  - wow
+- wow
+title: Hammer Time
 ---
 
 {{< figure src="images/WoWScrnShot_011013_222335_crop.jpg" title="Hammer Time" alt="U can't touch this" >}}

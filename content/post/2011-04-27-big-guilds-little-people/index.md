@@ -1,12 +1,12 @@
 ---
-title: Big guilds, little people
-date: 2011-04-27T11:32:26+00:00
 author: adam
+date: "2011-04-27T11:32:26+00:00"
 slug: big-guilds-little-people
 tags:
-  - guild drama
-  - "it's not about me-honest"
-  - wow
+- guild drama
+- it's not about me-honest
+- wow
+title: Big guilds, little people
 ---
 
 How big is your guild? Do you know everyone in it? Do you make an effort to _really_ know everyone in it? Or are you content to surround yourself in the people you know and ignore the other 200?

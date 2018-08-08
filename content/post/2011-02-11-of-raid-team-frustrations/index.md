@@ -1,13 +1,13 @@
 ---
-title: 'Of raid team frustrations&hellip;'
-date: 2011-02-11T17:10:36+00:00
 author: adam
-url: /2011/02/of-raid-team-frustrations/
+date: "2011-02-11T17:10:36+00:00"
 tags:
-  - biographical
-  - brain fart
-  - rambling on about nothing
-  - what to do
+- biographical
+- brain fart
+- rambling on about nothing
+- what to do
+title: Of raid team frustrations&hellip;
+url: /2011/02/of-raid-team-frustrations/
 ---
 
 {{< figure src="images/WoWScrnShot_012011_212806.jpg" alt="Noobs can kill!" >}}

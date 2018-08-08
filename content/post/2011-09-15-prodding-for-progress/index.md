@@ -1,14 +1,14 @@
 ---
-title: Prodding for progress
-date: 2011-09-15T15:11:21+00:00
 author: adam
+date: "2011-09-15T15:11:21+00:00"
 slug: prodding-for-progress
 tags:
-  - raid leading
-  - carrot and stick
-  - mainly stick
-  - theory-crafting
-  - wow
+- raid leading
+- carrot and stick
+- mainly stick
+- theory-crafting
+- wow
+title: Prodding for progress
 ---
 
 It occurred to me at some point last week that I hadn't taken a good look at my teams character maintenance efforts in a long long time. I remember, back when I first started the whole raid leading malarky, that it used to be a fairly prominent part of what I did.

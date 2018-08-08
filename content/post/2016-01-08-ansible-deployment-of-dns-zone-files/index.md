@@ -1,14 +1,14 @@
 ---
-title: "Ansible deployment of DNS zone files"
-slug: "ansible-dployment-of-dns-zone-files"
-date: 2016-01-08T16:09:00+00:00
-description: "Creating the DNS setup I want using configuration as code"
 author: adam
-tags: 
-  - devops
-  - ansible
-  - dns
 coverimage: ansible
+date: "2016-01-08T16:09:00+00:00"
+description: Creating the DNS setup I want using configuration as code
+slug: ansible-dployment-of-dns-zone-files
+tags:
+- devops
+- ansible
+- dns
+title: Ansible deployment of DNS zone files
 ---
 
 I've recently started to refactor my server configuration[^1]. It's always been built with [Ansible](http://www.ansible.com) but it was one of the first things I ever did using that and I was fairly certain that every way I could have been doing it wrong I was.

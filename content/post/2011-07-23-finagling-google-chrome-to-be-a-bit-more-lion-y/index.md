@@ -1,12 +1,12 @@
 ---
-title: Finagling Google Chrome to be a bit more Lion-y
-date: 2011-07-23T17:18:19+00:00
 author: adam
+date: "2011-07-23T17:18:19+00:00"
 slug: finagling-google-chrome-to-be-a-bit-more-lion-y
 tags:
-  - google chrome
-  - macos
-  - osx lion
+- google chrome
+- macos
+- osx lion
+title: Finagling Google Chrome to be a bit more Lion-y
 ---
 
 Figuring that I'd not written much up here lately I thought I'd better do something—anything—and so I write about making Google Chrome fit in a little better with the newly released OSX Lion.

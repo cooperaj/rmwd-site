@@ -1,11 +1,11 @@
 ---
-title: 'My Christmas Project &mdash; Part Deux'
-date: 2013-01-06T22:36:59+00:00
 author: adam
-slug: my-christmas-project-part-deux
 categories:
-  - "Short'n'sweet"
-  - Stuff
+- Short'n'sweet
+- Stuff
+date: "2013-01-06T22:36:59+00:00"
+slug: my-christmas-project-part-deux
+title: My Christmas Project &mdash; Part Deux
 ---
 
 As detailed in [my last post](http://realmenweardress.es/2012/12/my-christmas-project/ "My Christmas Project") my World of Warcraft project for this Christmas break was to get my bank alt Gnome to level 80 for a Herald of the Titans run that'll be happening sometime later this year.
