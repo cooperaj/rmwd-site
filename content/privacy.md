@@ -1,6 +1,7 @@
 ---
 title: "Privacy Policy"
 date: 2018-08-07T15:48:00+01:00
+description: The privacy policy for information held by Real Men Wear Dress.es
 type: page
 ---
 
