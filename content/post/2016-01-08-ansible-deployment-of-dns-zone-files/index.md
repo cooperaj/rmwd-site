@@ -3,7 +3,7 @@ author: adam
 coverimage: images/coding
 date: "2016-01-08T16:09:00+00:00"
 description: Creating the DNS setup I want using configuration as code
-slug: ansible-dployment-of-dns-zone-files
+slug: ansible-deployment-of-dns-zone-files
 tags:
 - devops
 - ansible
