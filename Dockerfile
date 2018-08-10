@@ -27,4 +27,5 @@ RUN cd /build/themes/rmwd && \
 # Runtime stage
 FROM nginx:mainline-alpine
 WORKDIR /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /build/public/. .
