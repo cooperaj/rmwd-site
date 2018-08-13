@@ -3,7 +3,7 @@ author: adam
 date: "2010-06-26T08:31:47+00:00"
 month: "2010/06"
 slug: the-trip-has-indeed-been-long
-tags:
+tag:
 - short'n'sweet
 - achievements
 - dragons

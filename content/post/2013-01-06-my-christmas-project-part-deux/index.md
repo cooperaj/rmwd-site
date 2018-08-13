@@ -3,7 +3,7 @@ author: adam
 date: "2013-01-06T22:36:59+00:00"
 month: "2013/01"
 slug: my-christmas-project-part-deux
-tags:
+tag:
 - I'm dreaming of a gnomey christmas
 - leveling
 - wow

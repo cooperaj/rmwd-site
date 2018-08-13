@@ -3,7 +3,7 @@ author: adam
 date: "2011-10-22T11:09:39+00:00"
 month: "2011/10"
 slug: new-expansion-cue-the-nay-sayers
-tags:
+tag:
 - mists of pandaria
 - how can they possibly know
 - needless bitching

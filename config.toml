@@ -39,6 +39,6 @@ footnoteReturnLinkContents = "↩"
     privacyEnhanced = true
 
 [taxonomies]
-  tag = "tags"
+  tag = "tag"
   year = "year"
   month = "month"

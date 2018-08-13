@@ -3,7 +3,7 @@ author: adam
 date: "2012-01-24T15:46:47+00:00"
 month: "2012/01"
 slug: dealing-with-that-raider
-tags:
+tag:
 - raid leading
 - on why roundabouts are dangerous
 - ostriches have no idea

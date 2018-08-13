@@ -3,7 +3,7 @@ author: adam
 date: "2014-03-14T11:07:44+00:00"
 month: "2014/03"
 slug: diablo-thou-hast-become-fun-again
-tags:
+tag:
 - diablo
 - dungeoneering
 - reaper of souls

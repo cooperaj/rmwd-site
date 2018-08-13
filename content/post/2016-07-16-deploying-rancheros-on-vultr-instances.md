@@ -3,7 +3,7 @@ author: adam
 date: "2016-07-16T15:37:00+01:00"
 description: Using PXE scripts to boot a custom ISO on Vultr
 month: "2016/07"
-tags:
+tag:
 - devops
 - vultr
 - rancheros

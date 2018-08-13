@@ -3,7 +3,7 @@ author: adam
 date: "2015-05-14T13:35:00+01:00"
 description: In which I discover the default Nginx setup didn't work for me
 month: "2015/05"
-tags:
+tag:
 - devops
 - nginx
 - froxlor

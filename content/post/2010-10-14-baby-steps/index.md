@@ -3,7 +3,7 @@ author: adam
 date: "2010-10-14T14:42:09+00:00"
 month: "2010/10"
 slug: baby-steps
-tags:
+tag:
 - cataclysm
 - patch 4.0.1
 - it's a whole new world... of warcraft

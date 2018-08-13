@@ -3,7 +3,7 @@ author: adam
 date: "2011-07-23T17:18:19+00:00"
 month: "2011/07"
 slug: finagling-google-chrome-to-be-a-bit-more-lion-y
-tags:
+tag:
 - google chrome
 - macos
 - osx lion

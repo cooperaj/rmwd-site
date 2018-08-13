@@ -3,7 +3,7 @@ author: adam
 date: "2010-08-10T23:29:12+00:00"
 month: "2010/08"
 slug: im-so-excited-and-i-just-cant-hide-it
-tags:
+tag:
 - cataclysm
 - short'n'sweet
 - it's a whole new world... of warcraft

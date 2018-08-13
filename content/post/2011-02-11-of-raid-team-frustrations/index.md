@@ -3,7 +3,7 @@ author: adam
 date: "2011-02-11T17:10:36+00:00"
 month: "2011/02"
 slug: of-raid-team-frustrations
-tags:
+tag:
 - biographical
 - brain fart
 - rambling on about nothing

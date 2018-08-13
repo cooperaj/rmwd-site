@@ -4,7 +4,7 @@ coverimage: images/ScreenShot_040710_201113
 date: "2010-06-24T23:11:04+00:00"
 month: "2010/06"
 slug: raid-leading-and-me
-tags:
+tag:
 - bio
 - issues
 - solutions

@@ -3,7 +3,7 @@ author: adam
 date: "2012-12-21T15:27:13+00:00"
 month: "2012/12"
 slug: my-christmas-project
-tags:
+tag:
 - I'm dreaming of a gnomey christmas
 - leveling
 - wow

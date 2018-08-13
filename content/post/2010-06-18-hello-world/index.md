@@ -3,7 +3,7 @@ author: adam
 date: "2010-06-18T14:27:24+00:00"
 month: "2010/06"
 slug: hello-world
-tags:
+tag:
 - short'n'sweet
 - wow
 title: Hello world!
