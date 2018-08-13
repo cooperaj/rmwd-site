@@ -5,7 +5,7 @@ date: "2016-01-08T16:09:00+00:00"
 description: Creating the DNS setup I want using configuration as code
 month: "2016/01"
 slug: ansible-deployment-of-dns-zone-files
-tag:
+tags:
 - devops
 - ansible
 - dns

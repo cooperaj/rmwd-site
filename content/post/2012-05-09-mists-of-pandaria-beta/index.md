@@ -3,7 +3,7 @@ author: adam
 date: "2012-05-09T13:10:55+00:00"
 month: "2012/05"
 slug: mists-of-pandaria-beta
-tag:
+tags:
 - mists of pandaria
 - spoilers of mists of pandaria
 - thanks but no thanks

@@ -3,7 +3,7 @@ author: adam
 date: "2012-03-12T15:22:25+00:00"
 slug: raid-leading-for-beginners
 month: "2012/03"
-tag:
+tags:
 - beginners
 - beginning raid leading
 - raid leading 101

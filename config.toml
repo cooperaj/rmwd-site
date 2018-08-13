@@ -24,9 +24,9 @@ footnoteReturnLinkContents = "↩"
   logo = "android-chrome-192x192.png"
 
 [permalinks]
+  month = "/:slug"
   post = "/:year/:month/:slug/"
   year = "/:slug"
-  month = "/:slug"
 
 [privacy]
   [privacy.googleAnalytics]
@@ -39,6 +39,6 @@ footnoteReturnLinkContents = "↩"
     privacyEnhanced = true
 
 [taxonomies]
-  tag = "tag"
+  tag = "tags"
   year = "year"
   month = "month"

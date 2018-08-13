@@ -3,7 +3,7 @@ author: adam
 date: "2013-01-10T22:58:31+00:00"
 month: "2013/01"
 slug: hammer-time
-tag:
+tags:
 - wow
 title: Hammer Time
 year: "2013"

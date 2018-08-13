@@ -3,7 +3,7 @@ author: adam
 date: "2014-07-16T10:23:20+00:00"
 month: "2014/07"
 slug: achievement-get
-tag:
+tags:
 - mists of pandaria
 - wow
 title: Achievement Get!

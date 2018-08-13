@@ -3,7 +3,7 @@ author: adam
 date: "2010-08-11T23:56:14+00:00"
 month: "2010/08"
 slug: the-big-bad-beta-screenshot-blog-post
-tag:
+tags:
 - cataclysm
 - aarooooooo
 - british = top hats

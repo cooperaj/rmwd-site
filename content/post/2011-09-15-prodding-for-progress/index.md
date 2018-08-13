@@ -3,7 +3,7 @@ author: adam
 date: "2011-09-15T15:11:21+00:00"
 month: "2011/09"
 slug: prodding-for-progress
-tag:
+tags:
 - raid leading
 - carrot and stick
 - mainly stick

@@ -4,7 +4,7 @@ date: 2014-02-28T11:25:04+00:00
 draft: true
 month: "2014/02"
 slug: tell-me-nothing-except-something
-tag:
+tags:
   - grumble
   - what to do
 title: "I don't want to know. Unless it's really, really something I'll want to know."

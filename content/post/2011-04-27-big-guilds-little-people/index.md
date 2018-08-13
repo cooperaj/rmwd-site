@@ -3,7 +3,7 @@ author: adam
 date: "2011-04-27T11:32:26+00:00"
 month: "2011/04"
 slug: big-guilds-little-people
-tag:
+tags:
 - guild drama
 - it's not about me-honest
 - wow

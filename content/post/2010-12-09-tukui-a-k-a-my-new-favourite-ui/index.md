@@ -4,7 +4,7 @@ date: 2010-12-09T17:36:04+00:00
 draft: true
 month: "2010/12"
 slug: tukui-a-k-a-my-new-favourite-ui
-tag:
+tags:
   - addons
   - guide
   - review

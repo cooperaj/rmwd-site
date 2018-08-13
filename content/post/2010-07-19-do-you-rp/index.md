@@ -3,7 +3,7 @@ author: adam
 date: "2010-07-19T14:24:22+00:00"
 month: "2010/07"
 slug: do-you-rp/
-tag:
+tags:
 - alts
 - role playing
 - wierd in a can't quite help myself way
