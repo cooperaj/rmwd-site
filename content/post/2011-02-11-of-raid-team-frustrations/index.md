@@ -1,6 +1,7 @@
 ---
 author: adam
 date: "2011-02-11T17:10:36+00:00"
+month: "2011/02"
 slug: of-raid-team-frustrations
 tags:
 - biographical
@@ -8,6 +9,7 @@ tags:
 - rambling on about nothing
 - what to do
 title: Of raid team frustrations&hellip;
+year: "2011"
 ---
 
 {{< figure src="images/WoWScrnShot_012011_212806.jpg" alt="Noobs can kill!" >}}

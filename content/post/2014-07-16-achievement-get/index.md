@@ -1,11 +1,13 @@
 ---
 author: adam
 date: "2014-07-16T10:23:20+00:00"
+month: "2014/07"
 slug: achievement-get
 tags:
 - mists of pandaria
 - wow
 title: Achievement Get!
+year: "2014"
 ---
 
 {{< figure src="images/WoWScrnShot_071514_210754-2.jpg" title="Grrr Rawr" alt="Grrr Rawr" >}}

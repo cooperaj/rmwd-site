@@ -1,6 +1,7 @@
 ---
 author: adam
 date: "2012-01-24T15:46:47+00:00"
+month: "2012/01"
 slug: dealing-with-that-raider
 tags:
 - raid leading
@@ -8,6 +9,7 @@ tags:
 - ostriches have no idea
 - wow
 title: Dealing with 'that' raider
+year: "2012"
 ---
 
 I'm sure we have all had experience of 'that' raider. They seem to come in an almost infinite number of flavours but the end result is always the same — a disruption to the team. Perhaps your version of 'that' raider does not ever stop talking, perhaps they do not ever _start_ talking, perhaps (and this is probably a little more common) they talk just enough to offend, antagonise or generally upset the teams delicate emotional balance[^1].

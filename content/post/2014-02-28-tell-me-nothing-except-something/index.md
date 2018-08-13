@@ -1,12 +1,14 @@
 ---
-title: "I don't want to know. Unless it's really, really something I'll want to know."
-date: 2014-02-28T11:25:04+00:00
 author: adam
+date: 2014-02-28T11:25:04+00:00
+draft: true
+month: "2014/02"
 slug: tell-me-nothing-except-something
 tags:
   - grumble
   - what to do
-draft: true
+title: "I don't want to know. Unless it's really, really something I'll want to know."
+year: "2014"
 ---
 
 {{< figure src="images/kP1tt7b.gif" alt="River Song of Dr. Who fame uses her catchphrase." >}}

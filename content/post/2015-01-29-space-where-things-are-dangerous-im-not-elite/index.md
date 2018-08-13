@@ -2,12 +2,14 @@
 author: adam
 date: "2015-01-29T12:01:00+00:00"
 description: A first post to figure out hoow to build a hugo site
+month: "2015/01"
 slug: space-where-things-are-dangerous-im-not-elite
 tags:
 - gaming
 - elitedangerous
 - hacking
-title: Space. Where things are dangerous. I’m not elite.
+title: Space. Where things are dangerous. I’m not elite
+year: "2015"
 ---
 
 {{< figure src="images/screenshot.jpg" >}}

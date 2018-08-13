@@ -1,12 +1,14 @@
 ---
 author: adam
 date: "2014-03-14T11:07:44+00:00"
+month: "2014/03"
 slug: diablo-thou-hast-become-fun-again
 tags:
 - diablo
 - dungeoneering
 - reaper of souls
-title: Diablo. Thou hast become fun again.
+title: Diablo. Thou hast become fun again
+year: "2014"
 ---
 
 {{< figure src="images/Screenshot004.jpg" alt="Die Maghda die" >}}

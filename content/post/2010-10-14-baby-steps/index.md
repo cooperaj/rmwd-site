@@ -1,6 +1,7 @@
 ---
 author: adam
 date: "2010-10-14T14:42:09+00:00"
+month: "2010/10"
 slug: baby-steps
 tags:
 - cataclysm
@@ -8,6 +9,7 @@ tags:
 - it's a whole new world... of warcraft
 - wow
 title: Baby steps
+year: "2010"
 ---
 
 {{< figure src="images/Screen-shot-2010-10-14-at-16.32.43.jpg" title="My what a big mouth you have" alt="Deathwing in Dragon form" >}}

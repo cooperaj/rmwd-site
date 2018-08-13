@@ -1,11 +1,13 @@
 ---
 author: adam
 date: "2010-06-18T14:27:24+00:00"
+month: "2010/06"
 slug: hello-world
 tags:
 - short'n'sweet
 - wow
 title: Hello world!
+year: "2010"
 ---
 
 {{< figure src="images/ScreenShot_013110_200413.jpg" alt="Dragons feel most at home underground donchaknow" >}}

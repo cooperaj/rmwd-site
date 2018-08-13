@@ -1,6 +1,7 @@
 ---
 author: adam
 date: "2010-06-26T08:31:47+00:00"
+month: "2010/06"
 slug: the-trip-has-indeed-been-long
 tags:
 - short'n'sweet
@@ -9,6 +10,7 @@ tags:
 - thanks
 - wow
 title: The trip has indeed been long
+year: "2010"
 ---
 
 {{< figure src="images/ScreenShot_062610_020430.jpg" alt="Here be (rideable violet) dragons" >}}

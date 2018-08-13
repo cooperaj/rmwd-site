@@ -1,6 +1,7 @@
 ---
 author: adam
 date: "2010-08-11T23:56:14+00:00"
+month: "2010/08"
 slug: the-big-bad-beta-screenshot-blog-post
 tags:
 - cataclysm
@@ -13,6 +14,7 @@ tags:
 - vashj'ir
 - worgen
 title: The big bad beta screenshot blog post
+year: "2010"
 ---
 
 Rather then deluge you in a veritable torrent of content light image posts I'm just going to chuck all my screenshots into one Cataclysm imagery grab bag.

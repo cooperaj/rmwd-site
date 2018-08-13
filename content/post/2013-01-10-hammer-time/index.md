@@ -1,10 +1,12 @@
 ---
 author: adam
 date: "2013-01-10T22:58:31+00:00"
+month: "2013/01"
 slug: hammer-time
 tags:
 - wow
 title: Hammer Time
+year: "2013"
 ---
 
 {{< figure src="images/WoWScrnShot_011013_222335_crop.jpg" title="Hammer Time" alt="U can't touch this" >}}

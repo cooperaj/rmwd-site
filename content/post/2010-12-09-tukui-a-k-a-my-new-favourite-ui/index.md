@@ -1,7 +1,8 @@
 ---
-title: TukUI a.k.a. my new favourite UI.
-date: 2010-12-09T17:36:04+00:00
 author: adam
+date: 2010-12-09T17:36:04+00:00
+draft: true
+month: "2010/12"
 slug: tukui-a-k-a-my-new-favourite-ui
 tags:
   - addons
@@ -9,7 +10,8 @@ tags:
   - review
   - tukui
   - ui
-draft: true
+title: TukUI a.k.a. my new favourite UI.
+year: "2010"
 ---
 
 <img class="aligncenter size-large wp-image-300" title="Lowercase is for chumps. Uppercase. :) - Hydra, to whom I owe thanks for the logo" src="http://realmenweardress.es/wp-content/uploads/2010/12/TukUIHeader-480x176.jpg" alt="Lowercase is for chumps. Uppercase. :) - Hydra, to whom I owe thanks for the logo" width="470" height="172" />

@@ -1,6 +1,7 @@
 ---
 author: adam
 date: "2012-05-09T13:10:55+00:00"
+month: "2012/05"
 slug: mists-of-pandaria-beta
 tags:
 - mists of pandaria
@@ -8,6 +9,7 @@ tags:
 - thanks but no thanks
 - wow
 title: Mists of Pandaria beta
+year: "2012"
 ---
 
 I was fortunate enough to get on the Cataclysm Beta. If you scroll down enough you'll see my huge screenshot gallery and possibly a few thoughts on it. It was a fantastic experience but I'm not going to repeat it.

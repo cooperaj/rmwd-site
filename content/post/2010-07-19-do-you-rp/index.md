@@ -1,6 +1,7 @@
 ---
 author: adam
 date: "2010-07-19T14:24:22+00:00"
+month: "2010/07"
 slug: do-you-rp/
 tags:
 - alts
@@ -8,6 +9,7 @@ tags:
 - wierd in a can't quite help myself way
 - wow
 title: Do you RP?
+year: "2010"
 ---
 
 {{< figure src="images/ScreenShot_071410_230307.jpg" alt="I need to stand on things else I can't reach" >}}
