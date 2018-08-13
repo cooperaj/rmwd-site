@@ -1,10 +1,11 @@
 ---
 author: adam
-categories:
-- Short'n'sweet
-- Stuff
 date: "2013-01-06T22:36:59+00:00"
 slug: my-christmas-project-part-deux
+tags:
+- I'm dreaming of a gnomey christmas
+- leveling
+- wow
 title: My Christmas Project &mdash; Part Deux
 ---
 
