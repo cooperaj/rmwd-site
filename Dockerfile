@@ -17,11 +17,14 @@ RUN apt-get update && apt-get install -y \
 COPY .npmrc themes/rmwd/package.json themes/rmwd/package-lock.json /build/themes/rmwd/
 RUN cd /build/themes/rmwd && npm i
 
-# Build site
-COPY . /build
+# Build assets
+COPY ./themes/rmwd /build/themes/rmwd
 RUN cd /build/themes/rmwd && \
-  npm run production && \
-  cd /build && \
+  npm run production
+
+# Build site html
+COPY . /build
+RUN cd /build && \
   hugo
 
 # Runtime stage
