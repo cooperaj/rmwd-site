@@ -25,6 +25,8 @@ footnoteReturnLinkContents = "↩"
 
 [permalinks]
   post = "/:year/:month/:slug/"
+  year = "/:slug"
+  month = "/:slug"
 
 [privacy]
   [privacy.googleAnalytics]
@@ -35,3 +37,8 @@ footnoteReturnLinkContents = "↩"
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
+
+[taxonomies]
+  tags = "tag"
+  year = "year"
+  month = "month"
