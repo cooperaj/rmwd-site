@@ -14,6 +14,8 @@ enableEmoji = true
 pygmentsUseClasses = true
 footnoteReturnLinkContents = "↩"
 
+disableKinds = ["taxonomyTerm"]
+
 [params]
   description = "The gaming and technological musings of a software developer"
   twitterName = "pieceofthepie"
