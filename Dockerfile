@@ -1,7 +1,7 @@
 # Build stage
 FROM node:8 as build
 
-ENV HUGO_VERSION 0.45
+ENV HUGO_VERSION 0.50
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
@@ -25,7 +25,7 @@ RUN cd /build/themes/rmwd && \
 # Build site html
 COPY . /build
 RUN cd /build && \
-  hugo
+  hugo --minify
 
 # Runtime stage
 FROM nginx:mainline-alpine
