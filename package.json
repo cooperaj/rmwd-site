@@ -4,7 +4,9 @@
   "description": "The realmenweardress.es website",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd themes/rmwd && npm i && npm run production"
+    "postinstall": "cd themes/rmwd && npm i && npm run production",
+    "buildimage": "docker build -t rmwd:dev .",
+    "runimage": "docker run --rm rmwd:dev -e VIRTUAL_HOST=rmwd.docker"
   },
   "author": "Adam Cooper <adam@networkpie.co.uk>",
   "license": "MIT"
