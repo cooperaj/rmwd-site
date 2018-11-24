@@ -23,7 +23,7 @@ RUN echo $'@fortawesome:registry=https://npm.fontawesome.com/\n\
 >> /build/themes/rmwd/.npmrc
 
 # Install dependencies
-RUN cd /build/themes/rmwd && npm i
+RUN cd /build/themes/rmwd && ls -lha && cat .npmrc && npm i
 
 # Build assets
 COPY ./themes/rmwd /build/themes/rmwd
