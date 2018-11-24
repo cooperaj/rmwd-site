@@ -13,14 +13,16 @@ RUN apt-get update && apt-get install -y \
   mv hugo/hugo /usr/bin/hugo && \
   rm -r hugo/
 
+# Install dependency configs
+COPY themes/rmwd/package.json themes/rmwd/package-lock.json /build/themes/rmwd/
+
 # Create .npmrc config file
 ARG FONT_AWESOME_KEY=none
 RUN echo $'@fortawesome:registry=https://npm.fontawesome.com/\n\
 //npm.fontawesome.com/:_authToken='${FONT_AWESOME_KEY} \
 >> /build/themes/rmwd/.npmrc
 
-# Install asset building dependencies
-COPY themes/rmwd/package.json themes/rmwd/package-lock.json /build/themes/rmwd/
+# Install dependencies
 RUN cd /build/themes/rmwd && npm i
 
 # Build assets
