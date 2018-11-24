@@ -18,12 +18,12 @@ COPY themes/rmwd/package.json themes/rmwd/package-lock.json /build/themes/rmwd/
 
 # Create .npmrc config file
 ARG FONT_AWESOME_KEY=none
-RUN echo $'@fortawesome:registry=https://npm.fontawesome.com/\n\
+RUN echo '@fortawesome:registry=https://npm.fontawesome.com/\n\
 //npm.fontawesome.com/:_authToken='${FONT_AWESOME_KEY} \
 >> /build/themes/rmwd/.npmrc
 
 # Install dependencies
-RUN cd /build/themes/rmwd && ls -lha && cat .npmrc && npm i
+RUN cd /build/themes/rmwd && npm i
 
 # Build assets
 COPY ./themes/rmwd /build/themes/rmwd
