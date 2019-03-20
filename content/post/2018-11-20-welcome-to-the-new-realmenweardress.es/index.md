@@ -17,13 +17,14 @@ year: "2018"
 
 This was the year I took some time out to rebuild this site. As is typical for the personal projects we take on it featured large amounts of scope creep, a non-existant deadline and too many new technologies to learn.
 
+<!--more-->
+
 ## Where I came from
 
 The original incarnation of this site was a WordPress instance. It used a [theme](https://wordpress.org/themes/oulipo/) that I'd forked from one I'd found whilst rummaging around on [github](https://github.com) and a number of plugins to otherwise improve the site. I was pretty proud of my efforts to be honest. I had it running on a standard [LEMP](https://lemp.io) [Linode](https://www.linode.com) VPS which I'd setup with a bunch of custom [Ansible](https://ansible.com) playbooks. It was deployed into a folder and I mostly let it take care of itself by giving it all the horrendous write permissions that it asked for.
 
 But things move on, and some 8 years later I chose to rebuild it all.
 
-<!--more-->
 
 ## Tech Stack
 
