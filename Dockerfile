@@ -1,7 +1,7 @@
 # Build stage
 FROM node:8 as build
 
-ENV HUGO_VERSION 0.54.0
+ENV HUGO_VERSION 0.55.6
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
