@@ -22,6 +22,7 @@ disableKinds = ["taxonomyTerm"]
   githubName = "cooperaj"
   linkedInName = ""
   keybaseName = "cooperaj"
+  mastodonName = "pieceofthepie"
   cover = "images/cover.jpg"
   logo = "android-chrome-192x192.png"
 
