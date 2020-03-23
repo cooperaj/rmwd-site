@@ -8,6 +8,8 @@ tags:
 - warhammer40k
 - orks
 - greenstuff
+- armypainter
+- gamesworkshop
 title: Kill Team - Orks Orks Orks
 year: "2020"
 ---
