@@ -14,7 +14,7 @@ title: Kill Team - Orks Orks Orks
 year: "2020"
 ---
 
-{{< figure src="images/cover.jpg" title="Ready to start a Waaaaaaaaagh!" alt="Four Games Workshop Ork miniatures ready ready to go" >}}
+{{< figure src="images/focus stacked.jpg" title="Ready to start a Waaaaaaaaagh!" alt="Four Games Workshop Ork miniatures ready ready to go" >}}
 
 The start of 2020 has seen me pick up the pace on my "hobby" journey. With a rocky start fuelled by a subscription to [Warhammer 40000: Conquest](https://hachettepartworks.com/warhammer-40000-conquest) I've invested in some greenskins (and found some in the attic) and this post documents me getting a team up and running.
 
