@@ -35,9 +35,10 @@ Once you're sat looking at a command line prompt you're ready to continue.
 
 ```shell script
 echo "deb [arch=arm64] https://download.docker.com/linux/ubuntu focal stable" | sudo tee > /etc/apt/sources.list.d/docker.list 
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-get update -qq
-sudo apt-get install apt-transport-https ca-certificates curl
-sudo apt-get install docker-ce
+sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo docker ps
 ```
 
@@ -72,6 +73,8 @@ mkdir -p ${GOPATH}/src/github.com/MatchbookLab
 cd ${GOPATH}/src/github.com/MatchbookLab
 git clone https://github.com/MatchbookLab/local-persist.git
 cd local-persist/
+
+glide install
 
 # Build our arm64 binary
 make binary
