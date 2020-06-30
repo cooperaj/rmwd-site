@@ -34,11 +34,13 @@ Once you're sat looking at a command line prompt you're ready to continue.
 ## Step 1 - Install docker
 
 ```shell script
+# necessary dependencies 
+sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+
 echo "deb [arch=arm64] https://download.docker.com/linux/ubuntu focal stable" | sudo tee > /etc/apt/sources.list.d/docker.list 
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-get update -qq
-sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose
 sudo docker ps
 ```
 
@@ -74,6 +76,7 @@ cd ${GOPATH}/src/github.com/MatchbookLab
 git clone https://github.com/MatchbookLab/local-persist.git
 cd local-persist/
 
+# Install dependencies
 glide install
 
 # Build our arm64 binary
@@ -143,7 +146,7 @@ Now that we've got our portainer service defined we can run docker-compose with 
 
 ```shell script
 # Bring up our defined services and detach into the background
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 When you're returned to your prompt you will be able to go to a web browser and access your Pi's IP at port _9000_ and see your Portainer instance up and running. I'd recommend you take the time to register your admin account and have a play around in the interface. It's a very powerful piece of software.
