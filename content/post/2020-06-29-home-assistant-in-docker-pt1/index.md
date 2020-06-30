@@ -110,7 +110,7 @@ In this guide we're going to be getting it up and running but in future parts we
 ```shell script
 # Lets make a place to store our configuration
 export PERSIST_DATA_PATH="${HOME}/src/home-assistant-config"
-mkdir - p ${PERSIST_DATA_PATH}
+mkdir -p ${PERSIST_DATA_PATH}
 cd ${PERSIST_DATA_PATH}
 ```
 
