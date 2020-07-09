@@ -107,7 +107,7 @@ You sit looking at a Windows desktop; whilst logging in you heard sound and whil
 
 So you go to immortalise your work, heading to the restore point control panel you click create. It fails. It fails the next ~~6~~12 times you try. You search about inconclusively for the error code (0x80042306 in case you were wondering) and find nothing that helps. 45 minutes of failed fiddling later you decide to add the word "bootcamp" to your search and are presented with [this blog](https://www.edandersen.com/2015/07/06/windows-10-on-mac-bootcamp-fixes/). It details the broken Apple driver that you need to disable and how. You follow the steps and with great trepidation attempt to create a restore point. It is successful. 
 
-Now it's over.
+Now it's over; you go in search of a cup of tea.
 
 [^1]: Back when SSD's were expensive a [hybrid](https://en.wikipedia.org/wiki/Hybrid_drive) was the only affordable option.
 [^2]: Coincidently the last one Apple released, OSX Snow Leopard.
