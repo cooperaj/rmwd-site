@@ -99,7 +99,7 @@ A Windows install, update and Bootcamp setup later you're sat looking at a blues
  * It appears to work.
  * You run __Bootcamp.exe__ using compatibility mode and feel joyous that it doesn't encounter any errors.
 
-Since you didn't read the post properly you reboot... and get a bluescreen. You have a rummage at the rescue prompt for the fabled __MacHalDriver.sys__ and you find it! You do a quick rename, cross your fingers and boot to a functioning desktop. Feeling like you're finally make progress you pick up the Reddit post at the half way point and use Brigadier to download the iMacPro drivers. You install the __AppleHAL_ driver and, desperate for this all to be over, reboot.
+Since you didn't read the post properly you reboot... and get a bluescreen. You have a rummage at the rescue prompt for the fabled __MacHalDriver.sys__ and you find it! You do a quick rename, cross your fingers and boot to a functioning desktop. Feeling like you're finally make progress you pick up the Reddit post at the half way point and use Brigadier to download the iMacPro drivers. You install the __AppleHAL__ driver and, desperate for this all to be over, reboot.
 
 ### Fin?
 
