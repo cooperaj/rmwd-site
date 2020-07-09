@@ -16,7 +16,9 @@ year: "2020"
 
 Welcome to the first part of a multipart series that will detail getting Home Assistant running in Docker on your RaspberryPi. We'll be installing Docker on an Ubuntu server instance running on Raspberry Pi. It will expose the services it runs through an instance of Traefik - that will automatically configure SSL certificates and it will give you a management interface called Portainer so that you can directly control the services running. 
 
-> This guide is aimed at an intermediate level. It assumes a certain amount of comfort in the Linux command line.
+{{< callout >}}
+This guide is aimed at an intermediate level. It assumes a certain amount of comfort in the Linux command line.
+{{< /callout >}}
 
 <!--more-->
 
@@ -110,7 +112,7 @@ In this guide we're going to be getting it up and running but in future parts we
 ```shell script
 # Lets make a place to store our configuration
 export PERSIST_DATA_PATH="${HOME}/src/home-assistant-config"
-mkdir -p ${PERSIST_DATA_PATH}
+mkdir -p ${PERSIST_DATA_PATH}/data
 cd ${PERSIST_DATA_PATH}
 ```
 
