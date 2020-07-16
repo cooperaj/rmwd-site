@@ -225,10 +225,10 @@ You're also going to need to update your `.env` file with some configuration val
 echo CLOUDFLARE_API_KEY=yoursupersecurekeyhere >> .env
 
 # choose the dns zone you want to edit
-echo ZONE=example.com >> .env
+echo DYNDNS_ZONE=example.com >> .env
 
 # and add a subdomain record you want to update
-echo SUBDOMAIN=ha >> .env
+echo DYNDNS_SUBDOMAIN=ha >> .env
 ```
 
 This will set things up so that going to `ha.example.com` will end up hitting the Traefik instance you have running. We don't currently expose anything there though so I wouldn't expect anything more than a 404 message.
