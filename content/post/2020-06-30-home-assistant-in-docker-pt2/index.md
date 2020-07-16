@@ -233,6 +233,12 @@ echo DYNDNS_SUBDOMAIN=ha >> .env
 
 This will set things up so that going to `ha.example.com` will end up hitting the Traefik instance you have running. We don't currently expose anything there though so I wouldn't expect anything more than a 404 message.
 
+Finally, kick it off
+
+```shell script
+sudo docker-compose up -d
+```
+
 ## Step 8 - Next time
 
 We've now set up almost everything we need to get a solid Home Assistant instance running. To be honest a lot of it is overkill but I do love a bit of over engineering. Next time we'll setup the Home Assistant docker-compose project with a standalone MQTT and MySQL instance then we'll ensure it's secured with [Lets Encrypt](https://letsencrypt.org/).
