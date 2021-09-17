@@ -1,7 +1,7 @@
 # Build stage
-FROM node:8 as build
+FROM node:12 as build
 
-ENV HUGO_VERSION 0.68.1
+ENV HUGO_VERSION 0.88.1
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
@@ -15,12 +15,6 @@ RUN apt-get update && apt-get install -y \
 
 # Install dependency configs
 COPY themes/rmwd/package.json themes/rmwd/package-lock.json /build/themes/rmwd/
-
-# Create .npmrc config file
-ARG FONT_AWESOME_KEY=none
-RUN echo '@fortawesome:registry=https://npm.fontawesome.com/\n\
-//npm.fontawesome.com/:_authToken='${FONT_AWESOME_KEY} \
->> /build/themes/rmwd/.npmrc
 
 # Install dependencies
 RUN cd /build/themes/rmwd && npm i

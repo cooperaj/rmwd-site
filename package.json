@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "cd themes/rmwd && npm i && npm run production",
-    "buildimage": "docker build -t rmwd:dev --build-arg FONT_AWESOME_KEY=${FONT_AWESOME_KEY} --build-arg BASE_URL=http://rmwd.docker .",
-    "runimage": "docker run --rm --label traefik.http.routers.rmwd.rule=Host\\(\\`rmwd.docker\\`\\) rmwd:dev",
+    "buildimage": "docker build -t rmwd:dev --build-arg BASE_URL=http://rmwd.docker .",
+    "runimage": "docker run --rm --network=proxy --label traefik.enable=true --label traefik.http.routers.rmwd.rule=Host\\(\\`rmwd.docker\\`\\) rmwd:dev",
     "develop": "cd themes/rmwd && npm run watch"
   },
   "author": "Adam Cooper <adam@networkpie.co.uk>",
