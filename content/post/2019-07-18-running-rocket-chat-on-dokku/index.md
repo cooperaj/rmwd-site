@@ -10,6 +10,7 @@ tags:
 - docker
 - rocketchat
 - mongo
+- tech
 title: "Running RocketChat on a Dokku PAAS server"
 year: "2019"
 ---

@@ -9,6 +9,7 @@ tags:
 - devops
 - ansible
 - dns
+- tech 
 title: Ansible deployment of DNS zone files
 year: "2016"
 ---

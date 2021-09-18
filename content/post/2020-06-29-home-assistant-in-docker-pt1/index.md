@@ -10,6 +10,7 @@ tags:
 - docker-compose
 - portainer
 - traefik
+- tech
 title: Running Home Assistant in docker on a Raspberry Pi
 year: "2020"
 ---

@@ -7,6 +7,7 @@ tags:
 - devops
 - vultr
 - rancheros
+- tech
 title: Deploying Rancheros on Vultr Instances
 year: "2016"
 ---

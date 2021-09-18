@@ -8,6 +8,7 @@ tags:
 - macbook pro
 - apple
 - windows 10
+- tech
 title: Giving an old (old) Macbook Pro life
 year: "2020"
 ---

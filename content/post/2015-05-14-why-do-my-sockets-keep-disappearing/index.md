@@ -7,6 +7,7 @@ tags:
 - devops
 - nginx
 - froxlor
+- tech
 title: Why do my sockets keep disappearing?
 year: "2015"
 ---
