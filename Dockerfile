@@ -17,7 +17,7 @@ RUN apt-get update && apt-get install -y \
 COPY themes/rmwd/package.json themes/rmwd/package-lock.json /build/themes/rmwd/
 
 # Install dependencies
-RUN cd /build/themes/rmwd && npm i
+RUN cd /build/themes/rmwd && npm ci
 
 # Build assets
 COPY ./themes/rmwd /build/themes/rmwd

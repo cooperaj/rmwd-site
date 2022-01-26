@@ -14,7 +14,7 @@ year: "2022"
 
 If you want to run [Pi-hole](https://pi-hole.net/) on your network but not have the entire family grumble that the internet isn't working when you need to reboot the machine it's running on then you'll need to run two Pi-holes. To run two Pi-holes properly they need to a) be on separate machines (I use my main homelab server and a RaspberryPi) and b) be configured on your client devices appropriately.[^1]
 
-{{< figure src="images/logo.png" title="The Pi-hole application logo" alt="The Pi-hole application logo" width="100px" >}}
+{{< figure class="is-pulled-right" src="images/logo.png" title="The Pi-hole application logo" alt="The Pi-hole application logo" width="100px" >}}
 
 If you've got all that working but have been getting annoyed that adding any new service means duplicating manual configuration steps in a clunky Pi-hole web interface then you'll likely have been searching for some sort of automation to handle it. Fortunately I came across a [Terraform](https://www.terraform.io) [provider for Pi-hole](https://registry.terraform.io/providers/ryanwholey/pihole/latest) that got me most of the way there. I just needed to put together a playbook/plan for it. 
 
