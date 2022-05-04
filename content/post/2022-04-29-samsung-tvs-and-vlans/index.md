@@ -3,7 +3,6 @@ author: adam
 coverimage: cover
 date: 2022-04-29T15:34:35+01:00
 description:
-draft: true
 month: "2022/04"
 tags: 
 - homelab

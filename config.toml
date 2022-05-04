@@ -16,6 +16,11 @@ footnoteReturnLinkContents = "↩"
 
 disableKinds = ["taxonomyTerm"]
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   description = "The gaming and technological musings of a software developer"
   twitterName = "pieceofthepie"
