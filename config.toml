@@ -23,11 +23,11 @@ disableKinds = ["taxonomyTerm"]
 
 [params]
   description = "The gaming and technological musings of a software developer"
-  twitterName = "pieceofthepie"
+  twitterName = ""
   githubName = "cooperaj"
   linkedInName = ""
   keybaseName = "cooperaj"
-  mastodonName = "pieceofthepie"
+  mastodonName = "@pieceofthepie@n8e.dev"
   cover = "images/cover.jpg"
   logo = "android-chrome-192x192.png"
 
