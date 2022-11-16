@@ -1,6 +1,8 @@
 .DS_Store
 .npmrc
 
+.hugo_build.lock
+
 public/*
 
 !.gitkeep
