@@ -3,7 +3,6 @@ author: adam
 coverimage: cover
 date: 2022-11-17T13:58:18Z
 description: This post is going to describe the steps I took to spin up my own Mastodon instance. It assumes technical knowledge (but hopefully not too much), and some pre-existing things.
-draft: true
 month: "2022/11"
 tags:
 - mastodon
