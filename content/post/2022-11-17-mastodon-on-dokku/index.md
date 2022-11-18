@@ -20,7 +20,7 @@ year: "2022"
 
 <!--start-summary-->
 
-If you're a [Twitter](https://twitter.com) user (and even if you're not) you may be aware that it was recently [acquired by one Elon Musk](https://www.wired.com/story/elon-musk-owns-twitter-deal/). You may also be aware that he's gone on a cost cutting rampage that has left people concerned for the future of the platform as mass layoffs and publicised technical changes have [resulted in broken functionality](https://twitter.com/UberMenchies/status/1592261486923382784) or [massive shareholder losses](https://www.forbes.com/sites/marisadellatto/2022/11/10/eli-lilly-clarifies-its-not-offering-free-insulin-after-tweet-from-fake-verified-account-as-chaos-unfolds-on-twitter/)
+If you're a [Twitter](https://twitter.com) user (and even if you're not) you may be aware that it was recently [acquired by one Elon Musk](https://www.wired.com/story/elon-musk-owns-twitter-deal/). You may also be aware that he's gone on a cost cutting rampage that has left people concerned for the future of the platform as mass layoffs and publicised technical changes have [resulted in broken functionality](https://twitter.com/UberMenchies/status/1592261486923382784) or [massive shareholder losses](https://www.forbes.com/sites/marisadellatto/2022/11/10/eli-lilly-clarifies-its-not-offering-free-insulin-after-tweet-from-fake-verified-account-as-chaos-unfolds-on-twitter/).
 
 There is a Twitter alternative, just one amongst many, called [Mastodon](https://getmastodon.org). It's a part of something called the Fediverse; which is a silly word that fundamentally groups a large number of applications around something called the [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) protocol. In brief it's a well defined method for clients and servers to talk to each other about people and what they're doing. Which is why, over the last few weeks, Mastodon servers (or instances) have seen a massive spike in new user accounts and usage. People are migrating and instance owners have been scrambling to scale up their infrastructure to cope.
 
@@ -92,6 +92,9 @@ This first series of commands is about configuring our Mastodon container within
 ```bash
 DOKKU_HOST=${YOUR_DOMAIN} dokku apps:create ${YOUR_APP_NAME}
 
+# At this point you have an app and Dokku is able to figure out your host
+# using that, so no need to specify the DOKKU_HOST
+
 # Create the database and cache support services
 dokku postgres:create ${YOUR_APP_NAME}
 dokku redis:create ${YOUR_APP_NAME}
@@ -101,6 +104,7 @@ dokku postgres:link ${YOUR_APP_NAME}
 dokku redis:link ${YOUR_APP_NAME}
 
 # Set our website domain and enable LetsEncrypt
+# If it's your first time you may be prompted to set the administrator email
 dokku domains:set ${YOUR_DOMAIN}
 dokku letsencrypt:enable ${YOUR_DOMAIN}
 
@@ -135,7 +139,7 @@ dokku config:set VAPID_PRIVATE_KEY=${COPY_PRIVATE_KEY_HERE}
 dokku config:set VAPID_PUBLIC_KEY=${COPY_PUBLIC_KEY_HERE}
 ```
 
-The eagle eyed amongst you[^2] may have spotted that we've not configured any email server settings. This is because, as a single user instance, I don't see the need to. But given the Dokku primer above you should easily be able to setup something like [Sendgrid](https://sendgrid.com). Nor have I setup [Elasticsearch](https://www.elastic.co/elasticsearch/) for much the same reason.
+The eagle eyed amongst you[^2] may have spotted that we've not configured any email server settings. This is because, as a single user instance, I don't see the need to[^3].  Nor have I setup [Elasticsearch](https://www.elastic.co/elasticsearch/) for much the same reason.
 
 ### Translation
 You might want to enable the built in post translation Mastodon 4.0 offers. This needs a freely available API key from [DeepL](https://www.deepl.com/pro-api?cta=header-pro-api/) which you can then set.
@@ -163,7 +167,7 @@ sudo docker ps
 
 # Take note of the container ID for your running Mastodon container,
 # it'll likely be named ${YOUR_DOMAIN}.web.1
-sudo docker exec -it ${COPY_CONTAINER_HASH} /bin/sh
+sudo docker exec -it ${COPY_CONTAINER_ID} /bin/sh
 
 # Inside the container run this.
 # It'll spit out a password. Take a note of that, you'll need it!
@@ -193,7 +197,10 @@ Go nuts, follow people. Take a look at your server load and disk usage every now
 Mastodon fully supports a user being the only account on the server. 
 
 ```bash
-# in your ${YOUR_DOMAIN} folder
+# In your ${YOUR_DOMAIN} folder
+
+# Be aware that since our app is now running this will result in 
+# downtime as Dokku restarts the service with the new configuration.
 dokku config:set SINGLE_USER_MODE=true
 ```
 
@@ -222,3 +229,5 @@ At this point you should have a running Mastodon instance. You might be followin
 [^1]: After an appropriate amount of time on a larger instance gathering followers, and people to follow. If you dive straight into a solo user instance you will find it a very quiet place.
 
 [^2]: Or, at least, those who have read the Mastodon documentation
+
+[^3]: Given the Dokku primer given in this post you should easily be able to setup something like [Sendgrid](https://sendgrid.com).
