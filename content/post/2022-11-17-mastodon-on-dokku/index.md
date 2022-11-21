@@ -18,6 +18,12 @@ year: "2022"
 
 ## The great #TwitterMigration
 
+{{<callout>}}
+  __Versions.__<br/>
+  _18th Nov. 2022_ - Initial version.<br/>
+  _21st Nov. 2022_ - Missing proxy ports setting added.
+{{</callout>}}
+
 <!--start-summary-->
 
 If you're a [Twitter](https://twitter.com) user (and even if you're not) you may be aware that it was recently [acquired by one Elon Musk](https://www.wired.com/story/elon-musk-owns-twitter-deal/). You may also be aware that he's gone on a cost cutting rampage that has left people concerned for the future of the platform as mass layoffs and publicised technical changes have [resulted in broken functionality](https://twitter.com/UberMenchies/status/1592261486923382784) or [massive shareholder losses](https://www.forbes.com/sites/marisadellatto/2022/11/10/eli-lilly-clarifies-its-not-offering-free-insulin-after-tweet-from-fake-verified-account-as-chaos-unfolds-on-twitter/).
@@ -112,6 +118,9 @@ dokku letsencrypt:enable ${YOUR_DOMAIN}
 # giving it somewhere to live
 dokku storage:ensure-directory mastodon
 dokku storage:mount /var/lib/dokku/data/storage/mastodon:/config
+
+# This tells dokku where our Mastodon container will expose it's services
+dokku proxy:ports-set http:80:80 https:443:443
 ```
 
 Now we want to configure our Mastodon application with some things as per [their documentation](https://docs.joinmastodon.org/admin/config/)
