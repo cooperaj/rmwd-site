@@ -21,7 +21,7 @@ year: "2022"
 {{<callout>}}
   __Versions.__<br/>
   _18th Nov. 2022_ - Initial version.<br/>
-  _21st Nov. 2022_ - Missing proxy ports setting added.
+  _21st Nov. 2022_ - Missing proxy ports setting added. Thanks [@brunty@brunty.social](https://brunty.social/@brunty)
 {{</callout>}}
 
 <!--start-summary-->
