@@ -19,9 +19,23 @@ year: "2022"
 ## The great #TwitterMigration
 
 {{<callout>}}
-  __Versions.__<br/>
-  _18th Nov. 2022_ - Initial version.<br/>
-  _21st Nov. 2022_ - Missing proxy ports setting added. Thanks [@brunty@brunty.social](https://brunty.social/@brunty)
+  __Document Versions__
+
+  <table class="table">
+    <tbody>
+      <tr>
+        <td>18th&nbsp;Nov.&nbsp;2022</td>
+        <td>Initial version.</td>
+      </tr>
+      <tr>
+        <td>21st&nbsp;Nov.&nbsp;2022</td>
+        <td>
+          Missing proxy ports setting added. Thanks <a href="https://brunty.social/@brunty">@brunty@brunty.social</a>.<br/>
+          Added missing file upload limit.
+        </td>
+      </tr>
+    </tbody>
+  </table>
 {{</callout>}}
 
 <!--start-summary-->
@@ -121,6 +135,10 @@ dokku storage:mount /var/lib/dokku/data/storage/mastodon:/config
 
 # This tells dokku where our Mastodon container will expose it's services
 dokku proxy:ports-set http:80:80 https:443:443
+
+# Allows users to upload more than the 1MB default. Mastodon limits files 
+# 40MB so this seems like a safe margin of error.
+dokku nginx:set client-max-body-size 50m
 ```
 
 Now we want to configure our Mastodon application with some things as per [their documentation](https://docs.joinmastodon.org/admin/config/)
