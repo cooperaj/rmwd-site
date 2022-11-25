@@ -19,19 +19,26 @@ year: "2022"
 ## The great #TwitterMigration
 
 {{<callout>}}
-  __Document Versions__
-
-  <table class="table">
+  <table class="table is-size-7">
     <tbody>
       <tr>
+        <th>Updates</th>
         <td>18th&nbsp;Nov.&nbsp;2022</td>
         <td>Initial version.</td>
       </tr>
       <tr>
+        <td></td>
         <td>21st&nbsp;Nov.&nbsp;2022</td>
         <td>
           Missing proxy ports setting added. Thanks <a href="https://brunty.social/@brunty">@brunty@brunty.social</a>.<br/>
           Added missing file upload limit.
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>25th&nbsp;Nov.&nbsp;2022</td>
+        <td>
+          Simplified some commands. Thanks <a href="https://github.com/josegonzalez">@josegonzalez</a>
         </td>
       </tr>
     </tbody>
@@ -187,18 +194,12 @@ If all goes well you should see your project build and deploy and finally be pre
 Feel free to watch your Mastodon instance boot up with `dokku logs -t`
 
 ## Logging in for the first time?
-Because we've not setup email for our server we're going to need to do some manual work on our account. Fortunately it's not too tricky. SSH on to your server and run the following
+Because we've not setup email for our server we're going to need to do some manual work on our account. Fortunately it's not too tricky and Dokku gives us a super easy way to run arbitrary commands in your containers.
 
 ```bash
-sudo docker ps
-
-# Take note of the container ID for your running Mastodon container,
-# it'll likely be named ${YOUR_DOMAIN}.web.1
-sudo docker exec -it ${COPY_CONTAINER_ID} /bin/sh
-
-# Inside the container run this.
+# Use Dokku to run a container command
 # It'll spit out a password. Take a note of that, you'll need it!
-RAILS_ENV=production /app/www/bin/tootctl accounts create \
+dokku enter web /app/www/bin/tootctl accounts create \
 ${YOUR_ACCOUNT_NAME} --email ${YOUR_EMAIL} --confirmed --role Owner
 
 # You did take a note of that password right? 
