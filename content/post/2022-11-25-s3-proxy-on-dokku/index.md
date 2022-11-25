@@ -16,7 +16,9 @@ slug: "s3-bucket-proxy-in-dokku"
 year: "2022"
 ---
 
-This deployable [Dokku](https://dokku.com) project implements a proxying service that allows you to front S3 Object storage served files from the configured domain. You may want to do this to, for example, retain control of your files apparent storage location and therefore allowing you to move your files later without having to implement redirects to the old content.
+It turns out that running a [Mastodon](https://getmastodon.com) instance, and hooking that instance up to a couple of relays will *very* quickly fill up the measly storage space on your VPS. To combat that you've got 2 options; 1) add more space[^1] or, 2) hook up some object storage like Amazon's S3 or Vultr's, err, [Object Storage](https://www.vultr.com/products/object-storage/). Since Mastodon natively supports the latter it seemed like a no brainer to me so I followed the [official documentation](https://docs.joinmastodon.org/admin/config/#files) and in doing so found instructions on [setting up an Nginx proxy](https://docs.joinmastodon.org/admin/optional/object-storage-proxy/). To do this optional bit I needed to come up with a [Dokku](https://dokku.com) based solution, and [this is it](https://github.com/cooperaj/dokku-s3-proxy).
+
+This deployable Dokku project implements a proxying service that allows you to front S3 Object storage served files from the configured domain. You may want to do this to, for example, retain control of your files apparent storage location and therefore allowing you to move your files later without having to implement redirects to the old content.
 
 It also acts as a content cache and provides a 48 hour TTL. Additionally it implements cache locking to prevent [cache slams/stampedes](https://en.wikipedia.org/wiki/Cache_stampede)
 
@@ -160,6 +162,6 @@ max-age=315576000, immutable" {} s3://$S3_BUCKET/$(echo {} \
 At this point you should now have a fully migrated Mastodon instance using S3 object storage for it's media cache.
 
 ## Acknowledgments 
-
-https://docs.joinmastodon.org/admin/optional/object-storage-proxy/  
 https://github.com/cybrespace/cybrespace-meta/blob/master/s3.md
+
+[^1]: Some providers make this easy (Vultr certainly does) but I've also hit issues with it on others that make me weary of it.
