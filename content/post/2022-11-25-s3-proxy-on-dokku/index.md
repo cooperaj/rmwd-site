@@ -90,9 +90,13 @@ dokku letsencrypt:enable
 
 ## Mastodon Migration
 
-This application/configuration was created with the intent to front files for [my Mastodon instance](https://social.n8e.dev) created using [this guide](https://realmenweardress.es/2022/11/running-your-own-mastodon-instance/). As I had been running this instance for a while already using the default Paperclip driver I had approximately 35GB of files to migrate and various configuration entries to change. Using [cybrespace's guide](https://github.com/cybrespace/cybrespace-meta/blob/master/s3.md) as the bulk of it I got to this set of commands.
+{{<callout>}}
+If you've used [my guide](https://realmenweardress.es/2022/11/running-your-own-mastodon-instance/) to deploy a Dokku based Mastodon instance you will likely want to pull that repos updates as I have added some bits that redirect old links to the new location.
+{{</callout>}}
 
-Optionally we clean up media files older than X days to minimise sync time with the storage.
+As I have been running [my instance](https://social.n8e.dev) for a while already using the default Paperclip driver I had approximately 35GB of files to migrate and various configuration entries to change. Using [cybrespace's guide](https://github.com/cybrespace/cybrespace-meta/blob/master/s3.md) as the bulk of it I got to this set of commands.
+
+Optionally, we can clean up media files older than X days to minimise sync time with the storage.
 
 ```bash
 # On your Dokku server via SSH
@@ -110,7 +114,7 @@ RAILS_ENV=production /app/www/bin/tootctl media remove --days=7
 exit
 ```
 
-We need to do an initial file sync to the bucket. First setup the s3cmd program with your bucket info. You'll need your key and secret as well as the region and bucket name.
+We need to do an initial file sync to the bucket. First setup the [s3cmd](https://s3tools.org/s3cmd) program with your bucket info. You'll need your key and secret as well as the region and bucket name.
 
 ```bash
 # Example configuration
@@ -124,11 +128,11 @@ s3cmd --configure
 cd /var/lib/dokku/data/storage/mastodon/mastodon/public/system/
 
 # Sync files in directory. 
-# The "-p 2" parameter is the number of parallel operations, set 
-# appropriate to your core count / instance load
 export S3_BUCKET=${YOUR_BUCKET_NAME}
 
 # This takes a good while. Maybe run it in a 'Screen' session?
+# The "-p 2" parameter is the number of parallel operations, set 
+# appropriate to your core count / instance load
 find -type f | cut -d"/" -f 2- | xargs -P 2 -I {} \
 s3cmd --acl-public sync --add-header="Cache-Control:public, \
 max-age=315576000, immutable" {} s3://$S3_BUCKET/$(echo {} \
@@ -159,7 +163,7 @@ max-age=315576000, immutable" {} s3://$S3_BUCKET/$(echo {} \
 | sed "s:public/system/\(.*\):\1:")
 ```
 
-At this point you should now have a fully migrated Mastodon instance using S3 object storage for it's media cache.
+At this point you should now have a fully migrated Mastodon instance using S3 object storage for it's media cache and can, if you're feeling brave, delete the contents of `/var/lib/dokku/data/storage/mastodon/mastodon/public/system/`.
 
 ## Acknowledgments 
 https://github.com/cybrespace/cybrespace-meta/blob/master/s3.md
