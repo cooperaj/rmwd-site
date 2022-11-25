@@ -96,25 +96,14 @@ If you've used [my guide](https://realmenweardress.es/2022/11/running-your-own-m
 
 As I have been running [my instance](https://social.n8e.dev) for a while already using the default Paperclip driver I had approximately 35GB of files to migrate and various configuration entries to change. Using [cybrespace's guide](https://github.com/cybrespace/cybrespace-meta/blob/master/s3.md) as the bulk of it I got to this set of commands.
 
-Optionally, we can clean up media files older than X days to minimise sync time with the storage.
+Optionally, we can clean up media files older than X days to minimise sync time with the storage. Navigate to the location you checked out the [github.com/cooperaj/dokku-mastodon](https://github.com/cooperaj/dokku-mastodon) repository - [as per my guide](https://realmenweardress.es/2022/11/running-your-own-mastodon-instance/).
 
 ```bash
-# On your Dokku server via SSH
-
-# Get container details
-sudo docker ps
-
-# Take note of the container ID for your running Mastodon container,
-# it'll likely be named ${YOUR_DOMAIN}.web.1
-sudo docker exec -it ${COPY_CONTAINER_ID} /bin/sh
-
-# Cleanup files for X days (7 as set here)
-RAILS_ENV=production /app/www/bin/tootctl media remove --days=7
-
-exit
+# In your dokku-mastodon checkout.
+dokku enter web /app/www/bin/tootctl media remove --days=7
 ```
 
-We need to do an initial file sync to the bucket. First setup the [s3cmd](https://s3tools.org/s3cmd) program with your bucket info. You'll need your key and secret as well as the region and bucket name.
+We need to do an initial file sync to the bucket. First, on your Dokku server using SSH, setup the [s3cmd](https://s3tools.org/s3cmd) program with your bucket info. You'll need your key and secret as well as the region and bucket name.
 
 ```bash
 # Example configuration
@@ -139,7 +128,7 @@ max-age=315576000, immutable" {} s3://$S3_BUCKET/$(echo {} \
 | sed "s:public/system/\(.*\):\1:")
 ```
 
-In another terminal window change to the location you checked out the [github.com/cooperaj/dokku-mastodon](https://github.com/cooperaj/dokku-mastodon) repository - [as per my guide](https://realmenweardress.es/2022/11/running-your-own-mastodon-instance/). This will restart your instance with the new configuration.
+Back on your machine in your dokku-mastodon checkout folder add some new settings. __This will restart your instance and result in downtime.__
 
 ```bash
 dokku config:set S3_ENABLED=true S3_BUCKET=${S3_BUCKET} \
@@ -166,6 +155,7 @@ max-age=315576000, immutable" {} s3://$S3_BUCKET/$(echo {} \
 At this point you should now have a fully migrated Mastodon instance using S3 object storage for it's media cache and can, if you're feeling brave, delete the contents of `/var/lib/dokku/data/storage/mastodon/mastodon/public/system/`.
 
 ## Acknowledgments 
-https://github.com/cybrespace/cybrespace-meta/blob/master/s3.md
+ * https://github.com/cybrespace/cybrespace-meta/blob/master/s3.md for the starter.  
+ * [@dokku@twitter.com](https://twitter.com/dokku) suggesting some command tweaks.
 
 [^1]: Some providers make this easy (Vultr certainly does) but I've also hit issues with it on others that make me weary of it.
