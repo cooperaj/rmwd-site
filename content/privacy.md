@@ -9,11 +9,10 @@ type: page
 Any personally identifying information we retain will not be used for any purpose other than to provide functionality on this website. **We will not pass your information on unless legally required to do so.**
 
 ## Information we collect
-We use Google Analytics to monitor statistics about the viewership so that we may better tailor the content to you, the visitor. We have configured Google Analytics to;
+We use [Ackee](https://ackee.electerious.com/) to monitor statistics about the viewership so that we may better tailor the content to you, the visitor. We have configured Ackee to;
 
-  * Anonymise your personally identifying information
-  * Respect any [Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track) headers you pass along with your requests
-  * Not use cookies to identify you to the site but instead use short lived session storage
+  * Not collect any personally identifying information.
+  * Not use cookies to identify you.
 
 When logging in to comment via one of the three authentication providers we request the minimum of information to provide the commenting functionality. This includes a way to identify you as a user of the commenting functionality and where possible a profile image to associate with your commenting identity. 
 

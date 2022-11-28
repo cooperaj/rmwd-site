@@ -4,8 +4,6 @@ title = "Real Men Wear Dress.es"
 theme = "rmwd"
 paginate = 5
 
-googleAnalytics = "UA-2007142-6"
-
 # Link copyright to author profile page
 copyright = "adam"
 
@@ -30,6 +28,10 @@ disableKinds = ["taxonomyTerm"]
   mastodonName = "@pieceofthepie@n8e.dev"
   cover = "images/cover.jpg"
   logo = "android-chrome-192x192.png"
+  [params.ackee]
+    server = "analytics.n8e.dev"
+    script = "viewerstats.js"
+    id = "8b9bb4fc-b20d-4079-b82a-f2aec1e13e09"
 
 [permalinks]
   month = "/:slug"
@@ -37,10 +39,6 @@ disableKinds = ["taxonomyTerm"]
   year = "/:slug"
 
 [privacy]
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    respectDoNotTrack = true
-    useSessionStorage = true
   [privacy.twitter]
     enableDNT = true
   [privacy.youtube]
