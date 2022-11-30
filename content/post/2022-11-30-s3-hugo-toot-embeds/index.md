@@ -16,7 +16,7 @@ year: "2022"
 
 After a bit of work with [Hugo's](https://gohugo.io) templating functions, namely the exceedingly useful `getJSON` I can now embed Mastodon posts directly in my page!  
 
-{{< toot id="109386784251297376" >}}
+{{< toot id="109433723069982233" >}}
 
 If you've looked at this before you might be thinking "Gee, this is easy, you just use the [Oembed API](https://docs.joinmastodon.org/methods/oembed/)". Well, I didn't want to use that so this does it properly, with building actual content out of JSON responses. It does mean I'm in way more control of the behaviour.
 
