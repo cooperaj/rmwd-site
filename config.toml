@@ -1,7 +1,7 @@
 baseURL = "https://realmenweardress.es"
 languageCode = "en-gb"
 title = "Real Men Wear Dress.es"
-theme = "rmwd"
+theme = "github.com/cooperaj/rmwd-hugo-theme"
 paginate = 5
 
 # Link copyright to author profile page
@@ -13,6 +13,15 @@ pygmentsUseClasses = true
 footnoteReturnLinkContents = "↩"
 
 disableKinds = ["taxonomyTerm"]
+
+[module]
+[module.hugoVersion]
+  min = "0.108.0"
+[[ module.imports ]]
+  path = "github.com/cooperaj/rmwd-hugo-theme"
+
+[build]
+  writeStats = true
 
 [markup]
   [markup.goldmark]

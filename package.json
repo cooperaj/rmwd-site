@@ -1,14 +1,23 @@
 {
-  "name": "realmenweardress.es",
-  "version": "1.0.0",
-  "description": "The realmenweardress.es website",
-  "main": "index.js",
-  "scripts": {
-    "postinstall": "cd themes/rmwd && npm i && npm run production",
-    "buildimage": "docker build -t rmwd:dev --build-arg BASE_URL=http://rmwd.docker .",
-    "runimage": "docker run --rm --network=proxy --label traefik.enable=true --label traefik.http.routers.rmwd.rule=Host\\(\\`rmwd.docker\\`\\) rmwd:dev",
-    "develop": "cd themes/rmwd && npm run watch"
+  "author": "Adam Cooper <adam@acpr.dev>",
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "@fullhuman/postcss-purgecss": "github.com/cooperaj/rmwd-hugo-theme",
+      "autoprefixer": "github.com/cooperaj/rmwd-hugo-theme",
+      "postcss": "github.com/cooperaj/rmwd-hugo-theme",
+      "postcss-cli": "github.com/cooperaj/rmwd-hugo-theme"
+    }
   },
-  "author": "Adam Cooper <adam@networkpie.co.uk>",
-  "license": "MIT"
+  "dependencies": {},
+  "description": "The realmenweardress.es website",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0"
+  },
+  "license": "MIT",
+  "name": "realmenweardress.es",
+  "version": "1.0.0"
 }
