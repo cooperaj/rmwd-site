@@ -18,6 +18,8 @@ RUN curl -sLo go.tar.gz "https://dl.google.com/go/go${GO_VERSION}.linux-amd64.ta
   ln -s /usr/local/go/bin/go /usr/bin/go && \
   rm -r go.tar.gz
 
+RUN apt-get install -y git
+
 # Install dependency configs
 COPY config.toml go.mod go.sum package.hugo.json /build/
 
