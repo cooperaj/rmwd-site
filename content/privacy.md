@@ -21,7 +21,7 @@ This information is retained for the express purpose of providing the commenting
 **As per the requirements of the GDPR you are able to request the deletion of your commenting information, as well as your full comment history by utilising the built in functions of the commenting system.**
 
 ## Information _others_ may collect
-This website uses third party scripts to embed content from third party websites, namely;
+This website may use third party scripts to embed content from third party websites, namely;
 
   * [youtube.com](https://youtube.com)
   * [twitter.com](https://twitter.com)
