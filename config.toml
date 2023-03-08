@@ -14,6 +14,8 @@ footnoteReturnLinkContents = "↩"
 
 disableKinds = ["taxonomyTerm"]
 
+enableGitInfo = true
+
 [module]
 [module.hugoVersion]
   min = "0.108.0"
