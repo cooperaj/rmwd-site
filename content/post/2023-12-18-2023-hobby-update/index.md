@@ -10,7 +10,7 @@ tags:
 - armypainter
 - gamesworkshop
 title: "My 2023 hobby (non) update"
-slug: "2023-12-18-2023-hobby-update"
+slug: "2023-hobby-update"
 year: "2023"
 ---
 
