@@ -2,8 +2,7 @@
 author: adam
 coverimage:
 date: 2023-12-18T17:11:42Z
-description:
-draft: true
+description: "2023 hobby roundup, in which I detail I was rubbish at it."
 month: "2023/12"
 tags: 
 - warhammer40k
