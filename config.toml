@@ -12,7 +12,7 @@ enableEmoji = true
 pygmentsUseClasses = true
 footnoteReturnLinkContents = "↩"
 
-disableKinds = ["taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 enableGitInfo = true
 
