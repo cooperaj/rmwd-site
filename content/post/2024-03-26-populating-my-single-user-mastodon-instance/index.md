@@ -2,7 +2,7 @@
 author: adam
 coverimage: cover.jpg
 date: 2024-03-26T11:26:00Z
-description: "My 2023 hobby roundup, in which I detail I was rubbish at it."
+description: "Making your single user Mastodon instance feel more alive with extra relevant content"
 month: "2024/03"
 tags: 
 - mastodon
