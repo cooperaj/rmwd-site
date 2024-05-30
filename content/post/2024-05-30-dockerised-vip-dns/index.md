@@ -144,7 +144,7 @@ All this means I can now point all my devices (via DHCP) to my `10.5.0.10` virtu
 
 ## Wait, what's just happened
 
-I've successful setup a [VRRP](https://en.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol) based virtual IP that will always, through the magic of election algorithms, point at a working DNS service. I've completely sidestepped the issue of what a device does with it's secondary DNS service by never actually needing it.
+I've successfully setup a [VRRP](https://en.wikipedia.org/wiki/Virtual_Router_Redundancy_Protocol) based virtual IP that will always, through the magic of election algorithms, point at a working DNS service. I've completely sidestepped the issue of what a device does with it's secondary DNS service by never actually needing it.
 
 Just for funsies lets do a quick test.
 
