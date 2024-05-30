@@ -8,6 +8,9 @@ tags:
 - homelab
 - selfhost
 - networking
+- omada
+- vlans
+- docker
 - tech
 title: "High availability DNS with Adguard Home and keepalived"
 slug: "dockerised-vip-accessible-dns"
