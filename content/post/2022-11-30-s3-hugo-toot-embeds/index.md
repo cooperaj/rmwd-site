@@ -10,7 +10,7 @@ tags:
 - hugo
 - tech
 title: "Some shortcode magic for embedding toots in Hugo posts."
-slug: "2022-11-30-s3-hugo-toot-embeds"
+slug: "hugo-toot-embeds"
 year: "2022"
 ---
 
