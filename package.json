@@ -3,19 +3,25 @@
   "comments": {
     "dependencies": {},
     "devDependencies": {
-      "@fullhuman/postcss-purgecss": "github.com/cooperaj/rmwd-hugo-theme",
-      "autoprefixer": "github.com/cooperaj/rmwd-hugo-theme",
-      "postcss": "github.com/cooperaj/rmwd-hugo-theme",
-      "postcss-cli": "github.com/cooperaj/rmwd-hugo-theme"
+      "@fortawesome/fontawesome-free": "go.acpr.dev/rmwd-hugo-theme",
+      "@fullhuman/postcss-purgecss": "go.acpr.dev/rmwd-hugo-theme",
+      "autoprefixer": "go.acpr.dev/rmwd-hugo-theme",
+      "bulma": "go.acpr.dev/rmwd-hugo-theme",
+      "postcss": "go.acpr.dev/rmwd-hugo-theme",
+      "postcss-cli": "go.acpr.dev/rmwd-hugo-theme",
+      "viewerjs": "go.acpr.dev/rmwd-hugo-theme"
     }
   },
   "dependencies": {},
   "description": "The realmenweardress.es website",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.6.0",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "autoprefixer": "^10.4.13",
+    "bulma": "^1.0.2",
     "postcss": "^8.4.20",
-    "postcss-cli": "^10.1.0"
+    "postcss-cli": "^10.1.0",
+    "viewerjs": "^1.11.6"
   },
   "license": "MIT",
   "name": "realmenweardress.es",

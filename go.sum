@@ -1,8 +1,2 @@
-github.com/FortAwesome/Font-Awesome v0.0.0-20221115183454-96cafbd73ec4 h1:xfr9SidRCMEh4A8fdkLhFPcHAVbrdv3Ua0Jp/nSmhhQ=
-github.com/FortAwesome/Font-Awesome v0.0.0-20221115183454-96cafbd73ec4/go.mod h1:IUgezN/MFpCDIlFezw3L8j83oeiIuYoj28Miwr/KUYo=
-github.com/cooperaj/rmwd-hugo-theme v0.0.0-20240326181024-840d879c15fa h1:dOM66ReYRRj3naB0GOQ7DjA5kZHb8JEnME6S9uWOKMY=
-github.com/cooperaj/rmwd-hugo-theme v0.0.0-20240326181024-840d879c15fa/go.mod h1:gvkbdwqpD3AcgxNvk+NmAZBnwrGa5cGJZaGwTEWamjY=
-github.com/fengyuanchen/viewerjs v1.11.6 h1:tsj7VPabAhphgiPMHClankHkdh02bVrrY47Vcabg3fE=
-github.com/fengyuanchen/viewerjs v1.11.6/go.mod h1:RMfNwqXxfGN/U8s5pScGDAHEhvYzTCSQafZCoM5v0HA=
-github.com/jgthms/bulma v0.0.0-20240104164708-f1d23c178df0 h1:jcKZVlsY9bZGmd1zIFDjNgURbOPsubFhPWEMY6CUfpg=
-github.com/jgthms/bulma v0.0.0-20240104164708-f1d23c178df0/go.mod h1:89FLBKXYFKfOKAoDeUT26V0pHGwzr205cMXAEqtAVOI=
+go.acpr.dev/rmwd-hugo-theme v0.0.0-20240914152717-7bc23612d330 h1:OxZjP1BXwtjJPHTiuCrhEofwX/unArLoX0SHIOquQgw=
+go.acpr.dev/rmwd-hugo-theme v0.0.0-20240914152717-7bc23612d330/go.mod h1:H//NNmbgZ32V7FRUdZKStIzJvxw1xGJMUANKO4ko+kM=

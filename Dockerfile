@@ -3,7 +3,7 @@ FROM docker.io/library/node:18 as build
 
 ARG TARGETARCH
 
-ENV HUGO_VERSION 0.125.3
+ENV HUGO_VERSION 0.134.0
 ENV GO_VERSION 1.21.5
 
 # Install dependencies

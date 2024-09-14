@@ -1,8 +1,7 @@
 baseURL = "https://realmenweardress.es"
 languageCode = "en-gb"
 title = "Real Men Wear Dress.es"
-theme = "github.com/cooperaj/rmwd-hugo-theme"
-paginate = 5
+theme = "go.acpr.dev/rmwd-hugo-theme"
 
 # Link copyright to author profile page
 copyright = "adam"
@@ -17,10 +16,22 @@ disableKinds = ["taxonomy"]
 enableGitInfo = true
 
 [module]
+workspace = "hugo.work"
 [module.hugoVersion]
-  min = "0.108.0"
+  min = "0.134.0"
 [[ module.imports ]]
-  path = "github.com/cooperaj/rmwd-hugo-theme"
+  path = "go.acpr.dev/rmwd-hugo-theme"
+
+[[module.mounts]]
+source = "node_modules"
+target = "assets/node_modules"
+[[module.mounts]]
+source = "node_modules/@fortawesome/fontawesome-free/webfonts"
+target = "static/fonts"
+includeFiles = [
+  "fa-brands-400.*",
+  "fa-solid-900.*"
+]
 
 [build]
   writeStats = true
@@ -29,6 +40,9 @@ enableGitInfo = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[pagination]
+  pagerSize = 5
 
 [params]
   description = "The gaming and technological musings of a software developer"
@@ -55,6 +69,10 @@ enableGitInfo = true
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
+
+[security]
+  [security.http]
+    mediaTypes = ['^application/jrd\+json']
 
 [taxonomies]
   tag = "tags"
