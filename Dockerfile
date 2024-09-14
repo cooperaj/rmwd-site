@@ -1,10 +1,11 @@
 # Build stage
-FROM docker.io/library/node:18 as build
+FROM docker.io/library/node:18 AS build
 
 ARG TARGETARCH
 
-ENV HUGO_VERSION 0.134.0
-ENV GO_VERSION 1.21.5
+ENV HUGO_VERSION=0.134.0
+ENV GO_VERSION=1.21.5
+ENV DART_SASS_VERSION=1.78.0
 
 # Install dependencies
 RUN curl -sLo hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-${TARGETARCH}.tar.gz" && \
@@ -19,6 +20,12 @@ RUN curl -sLo go.tar.gz "https://dl.google.com/go/go${GO_VERSION}.linux-${TARGET
   tar xzf go.tar.gz -C /usr/local && \
   ln -s /usr/local/go/bin/go /usr/bin/go && \
   rm -r go.tar.gz
+
+RUN curl -sLo dart-sass.tar.gz "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-${TARGETARCH}.tar.gz" && \
+  mkdir /usr/local/dart-sass && \
+  tar xzf dart-sass.tar.gz -C /usr/local && \
+  ln -s /usr/local/dart-sass/sass /usr/bin/sass && \
+  rm -r dart-sass.tar.gz
 
 # Install dependency configs
 COPY config.toml go.mod go.sum package.hugo.json /build/
