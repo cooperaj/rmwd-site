@@ -16,7 +16,6 @@ disableKinds = ["taxonomy"]
 enableGitInfo = true
 
 [module]
-workspace = "hugo.work"
 [module.hugoVersion]
   min = "0.134.0"
 [[ module.imports ]]
