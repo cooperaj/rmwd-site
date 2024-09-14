@@ -21,8 +21,9 @@ RUN curl -sLo go.tar.gz "https://dl.google.com/go/go${GO_VERSION}.linux-${TARGET
   ln -s /usr/local/go/bin/go /usr/bin/go && \
   rm -r go.tar.gz
 
-RUN if [ "${TARGETARCH}" == "amd64" ]; then arch=x64; else arch=${TARGETARCH}; fi && \
-  curl -sLo dart-sass.tar.gz "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-${arch}.tar.gz" && \
+RUN set -eux; \
+  if [ "${TARGETARCH}" = "amd64" ]; then arch="x64"; else arch=${TARGETARCH}; fi; \
+  curl -sLo dart-sass.tar.gz "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-$arch.tar.gz" && \
   mkdir /usr/local/dart-sass && \
   tar xzf dart-sass.tar.gz -C /usr/local && \
   ln -s /usr/local/dart-sass/sass /usr/bin/sass && \
