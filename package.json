@@ -9,6 +9,7 @@
       "bulma": "go.acpr.dev/rmwd-hugo-theme",
       "postcss": "go.acpr.dev/rmwd-hugo-theme",
       "postcss-cli": "go.acpr.dev/rmwd-hugo-theme",
+      "postcss-prune-var": "go.acpr.dev/rmwd-hugo-theme",
       "viewerjs": "go.acpr.dev/rmwd-hugo-theme"
     }
   },
@@ -21,6 +22,7 @@
     "bulma": "^1.0.2",
     "postcss": "^8.4.20",
     "postcss-cli": "^10.1.0",
+    "postcss-prune-var": "^1.1.2",
     "viewerjs": "^1.11.6"
   },
   "license": "MIT",
