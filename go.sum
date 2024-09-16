@@ -1,2 +1,4 @@
 go.acpr.dev/rmwd-hugo-theme v0.0.0-20240916095151-206e137384a3 h1:XFS/vyxA07SuveBB4teSjWasllvJBl2P3jIeVGboIFw=
 go.acpr.dev/rmwd-hugo-theme v0.0.0-20240916095151-206e137384a3/go.mod h1:H//NNmbgZ32V7FRUdZKStIzJvxw1xGJMUANKO4ko+kM=
+go.acpr.dev/rmwd-hugo-theme v0.0.0-20240916100918-454c3326dd5a h1:a7tjMgOf0ST/AfnwtuVc/LSNYavl+H1DOnh5aZZwiQg=
+go.acpr.dev/rmwd-hugo-theme v0.0.0-20240916100918-454c3326dd5a/go.mod h1:H//NNmbgZ32V7FRUdZKStIzJvxw1xGJMUANKO4ko+kM=
