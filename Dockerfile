@@ -3,9 +3,9 @@ FROM docker.io/library/node:18 AS build
 
 ARG TARGETARCH
 
-ENV HUGO_VERSION=0.134.0
-ENV GO_VERSION=1.21.5
-ENV DART_SASS_VERSION=1.78.0
+ENV HUGO_VERSION=0.145.0
+ENV GO_VERSION=1.24.1
+ENV DART_SASS_VERSION=1.85.1
 
 # Install dependencies
 RUN curl -sLo hugo.tar.gz "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-${TARGETARCH}.tar.gz" && \
