@@ -45,7 +45,6 @@ includeFiles = [
 
 [params]
   description = "The gaming and technological musings of a software developer"
-  twitterName = ""
   githubName = "cooperaj"
   linkedInName = ""
   keybaseName = ""
@@ -64,8 +63,6 @@ includeFiles = [
   year = "/:slug"
 
 [privacy]
-  [privacy.twitter]
-    enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
 
