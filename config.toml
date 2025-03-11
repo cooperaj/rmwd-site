@@ -3,8 +3,7 @@ languageCode = "en-gb"
 title = "Real Men Wear Dress.es"
 theme = "go.acpr.dev/rmwd-hugo-theme"
 
-# Link copyright to author profile page
-copyright = "adam"
+copyright = "Adam Cooper"
 
 # Site lnf
 enableEmoji = true
@@ -17,9 +16,10 @@ enableGitInfo = true
 
 [module]
 [module.hugoVersion]
-  min = "0.134.0"
-[[ module.imports ]]
-  path = "go.acpr.dev/rmwd-hugo-theme"
+min = "0.134.0"
+
+[[module.imports]]
+path = "go.acpr.dev/rmwd-hugo-theme"
 
 [[module.mounts]]
 source = "node_modules"
@@ -52,6 +52,9 @@ includeFiles = [
   mastodonName = "@pieceofthepie@n8e.dev"
   cover = "images/cover.jpg"
   logo = "android-chrome-192x192.png"
+  [params.author]
+    name = "Adam Cooper"
+    uri = "author/adam"
   [params.ackee]
     server = "analytics.n8e.dev"
     script = "viewerstats.js"
@@ -74,3 +77,23 @@ includeFiles = [
   tag = "tags"
   year = "year"
   month = "month"
+
+[mediaTypes]
+  [mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+
+[outputFormats]
+  [outputFormats.Atom]
+    name = "Atom"
+    mediaType = "application/atom+xml"
+    baseName = "atom"
+    rel = "alternate"
+    isPlainText = false
+    isHTML = false
+    noUgly = true
+    permalinkable = false
+
+[outputs]
+  home = ["HTML", "Atom"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
