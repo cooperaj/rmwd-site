@@ -10,7 +10,7 @@ enableEmoji = true
 pygmentsUseClasses = true
 footnoteReturnLinkContents = "↩"
 
-disableKinds = ["taxonomy"]
+disableKinds = ["taxonomy", "RSS"]
 
 enableGitInfo = true
 
@@ -84,16 +84,15 @@ includeFiles = [
 
 [outputFormats]
   [outputFormats.Atom]
-    name = "Atom"
     mediaType = "application/atom+xml"
-    baseName = "atom"
+    baseName = "feed"
     rel = "alternate"
     isPlainText = false
     isHTML = false
     noUgly = true
-    permalinkable = false
 
 [outputs]
   home = ["HTML", "Atom"]
   section = ["HTML"]
+  page = ["HTML"]
   taxonomy = ["HTML"]
