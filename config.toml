@@ -1,14 +1,11 @@
 baseURL = "https://realmenweardress.es"
 languageCode = "en-gb"
 title = "Real Men Wear Dress.es"
-theme = "go.acpr.dev/rmwd-hugo-theme"
 
 copyright = "Adam Cooper"
 
 # Site lnf
 enableEmoji = true
-pygmentsUseClasses = true
-footnoteReturnLinkContents = "↩"
 
 disableKinds = ["taxonomy", "RSS"]
 
@@ -22,8 +19,14 @@ min = "0.134.0"
 path = "go.acpr.dev/rmwd-hugo-theme"
 
 [[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
 source = "node_modules"
 target = "assets/node_modules"
+[[module.mounts]]
+source = "static"
+target = "static"
 [[module.mounts]]
 source = "node_modules/@fortawesome/fontawesome-free/webfonts"
 target = "static/fonts"
