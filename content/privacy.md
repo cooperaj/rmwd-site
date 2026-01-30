@@ -8,7 +8,7 @@ type: page
 ## General
 Any personally identifying information we retain will not be used for any purpose other than to provide functionality on this website. **I will not pass your information to anyone unless legally required to do so.**
 
-## Information we collect
+## Information that I collect
 I use [Ackee](https://ackee.electerious.com/) to monitor statistics about the viewership so that I might better tailor the content to you, the visitor. I have configured Ackee to;
 
   * Not collect any personally identifying information.
