@@ -6,15 +6,17 @@ type: page
 ---
 
 ## General
-Any personally identifying information we retain will not be used for any purpose other than to provide functionality on this website. **We will not pass your information on unless legally required to do so.**
+Any personally identifying information we retain will not be used for any purpose other than to provide functionality on this website. **I will not pass your information to anyone unless legally required to do so.**
 
 ## Information we collect
-We use [Ackee](https://ackee.electerious.com/) to monitor statistics about the viewership so that we may better tailor the content to you, the visitor. We have configured Ackee to;
+I use [Ackee](https://ackee.electerious.com/) to monitor statistics about the viewership so that I might better tailor the content to you, the visitor. I have configured Ackee to;
 
   * Not collect any personally identifying information.
   * Not use cookies to identify you.
 
-When logging in to comment via one of the three authentication providers we request the minimum of information to provide the commenting functionality. This includes a way to identify you as a user of the commenting functionality and where possible a profile image to associate with your commenting identity. 
+This configuration means that I have deployed a glorfied page counter - with the added benefit of knowing how long you stick about and what search engine you used to find the page.
+
+When logging in to comment via one of the three authentication providers I request the minimum of information to provide the commenting functionality. This includes a way to identify you as a user of the commenting functionality and where possible a profile image to associate with your commenting identity. 
 
 This information is retained for the express purpose of providing the commenting functionality. It will not be used for any other purpose. 
 
@@ -24,7 +26,6 @@ This information is retained for the express purpose of providing the commenting
 This website may use third party scripts to embed content from third party websites, namely;
 
   * [youtube.com](https://youtube.com)
-  * [twitter.com](https://twitter.com)
   * [instagram.com](https://instagram.com)
   * [vimeo.com](https://vimeo.com)
 
