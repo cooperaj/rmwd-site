@@ -2,7 +2,7 @@ baseURL = "https://realmenweardress.es"
 languageCode = "en-gb"
 title = "Real Men Wear Dress.es"
 
-copyright = "Adam Cooper"
+copyright = "adam"
 
 # Site lnf
 enableEmoji = true
