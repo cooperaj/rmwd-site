@@ -12,28 +12,28 @@ disableKinds = ["taxonomy", "RSS"]
 enableGitInfo = true
 
 [module]
-[module.hugoVersion]
-min = "0.134.0"
+  [module.hugoVersion]
+    min = "0.134.0"
 
 [[module.imports]]
-path = "go.acpr.dev/rmwd-hugo-theme"
+  path = "go.acpr.dev/rmwd-hugo-theme"
 
 [[module.mounts]]
-source = "assets"
-target = "assets"
+  source = "assets"
+  target = "assets"
 [[module.mounts]]
-source = "node_modules"
-target = "assets/node_modules"
+  source = "node_modules"
+  target = "assets/node_modules"
 [[module.mounts]]
-source = "static"
-target = "static"
+  source = "static"
+  target = "static"
 [[module.mounts]]
-source = "node_modules/@fortawesome/fontawesome-free/webfonts"
-target = "static/fonts"
-includeFiles = [
-  "fa-brands-400.*",
-  "fa-solid-900.*"
-]
+  source = "node_modules/@fortawesome/fontawesome-free/webfonts"
+  target = "static/fonts"
+  includeFiles = [
+    "fa-brands-400.*",
+    "fa-solid-900.*"
+  ]
 
 [build]
   writeStats = true
